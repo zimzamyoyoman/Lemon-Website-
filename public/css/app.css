@@ -59,12 +59,8 @@ body {
 
 .grid-item {
   float: left;
-  width: 100px;
-  height: 100px;
-  background: #0D8;
-  border: 2px solid #333;
-  border-color: hsla(0, 0%, 0%, 0.7);
+  width: 246px;
+  height: 246px;
+  background: #FFDC60;
+  border: 2px solid #FFFFFF;
 }
-
-.grid-item--width2 { width: 200px; }
-.grid-item--height2 { height: 200px; }
