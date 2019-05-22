@@ -1,3 +1,36 @@
 body {
-    background-color: aqua
+    background: #ffffff;
+    overflow-x: hidden;
+}
+
+#sectionhead {
+    height: 64px;
+    text-align: center;
+    background-color: #ababab;
+    z-index: 250;
+    position: relative;
+    margin-bottom: 5px;
+}
+
+#inner, .inner {
+    width: 1000px;
+    height: auto;
+    position: relative;
+    float: none;
+    margin: 0 auto;
+}
+
+#secorange, .secorange {
+    position: absolute;
+    top: -20px;
+    left: -80px;
+}
+
+#sectxt, .sectxt {
+    /* position: relative; */
+    text-align: left;
+    color: #ffffff;
+    font-family: 'Anton';
+    font-size: 19px;
+    padding: 8px 0 0 66px;
 }
