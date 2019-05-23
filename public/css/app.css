@@ -1,6 +1,8 @@
 body {
     background: #ffffff;
     overflow-x: hidden;
+    background-image: url("../images/lemons.jpg");
+    background-size: auto;
 }
 
 #sectionhead {
@@ -62,5 +64,5 @@ body {
   width: 246px;
   height: 246px;
   background: #FFDC60;
-  border: 2px solid #FFFFFF;
+  border: 2px solid rgba(255,255,255,1);
 }
