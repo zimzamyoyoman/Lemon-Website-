@@ -59,10 +59,80 @@ body {
 
 /* ---- .grid-item ---- */
 
-.grid-item {
+.grid-item-1 {
   float: left;
   width: 246px;
   height: 246px;
   background: #FFDC60;
-  border: 2px solid rgba(255,255,255,1);
+  border-bottom: 2px solid rgba(255,255,255,1);
+  font-family: 'Anton';
+  font-size: 10rem;
+  padding: 5px 50px;
+  color: white;
+}
+
+.grid-item-2 {
+  float: left;
+  width: 246px;
+  height: 246px;
+  background: #FFDC60;
+  border-left: 2px solid rgba(255,255,255,1);
+  border-bottom: 2px solid rgba(255,255,255,1);
+}
+
+.grid-item-3-transparent-1 {
+  float: left;
+  width: 246px;
+  height: 246px;
+  background: rgba(0,0,0,0.1);
+  border-left: 2px solid rgba(255,255,255,1);
+  border-bottom: 2px solid rgba(255,255,255,1);
+}
+
+.grid-item-4 {
+  float: left;
+  width: 246px;
+  height: 246px;
+  background: #FFDC60;
+  border-left: 2px solid rgba(255,255,255,1);
+  border-bottom: 2px solid rgba(255,255,255,1);
+}
+
+.grid-item-5-transparent-2 {
+  float: left;
+  width: 246px;
+  height: 246px;
+  background: rgba(0,0,0,0.1);
+}
+
+.grid-item-6 {
+  float: left;
+  width: 246px;
+  height: 246px;
+  background: #FFDC60;
+  border-left: 2px solid rgba(255,255,255,1);
+  font-family: 'Anton';
+  font-size: 10rem;
+  padding: 5px 50px;
+  color: white;
+}
+
+.grid-item-7 {
+  float: left;
+  width: 246px;
+  height: 246px;
+  background: #FFDC60;
+  border-left: 2px solid rgba(255,255,255,1);
+}
+
+.grid-item-8 {
+  float: left;
+  width: 246px;
+  height: 246px;
+  background: #FFDC60;
+  border-left: 2px solid rgba(255,255,255,1);
+  font-family: 'Anton';
+  font-size: 10rem;
+  padding: 5px 50px;
+  color: white;
 }
