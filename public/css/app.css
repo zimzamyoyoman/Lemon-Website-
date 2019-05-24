@@ -64,11 +64,17 @@ body {
   height: 245px;
 }
 
+#overlay { 
+  background-color: #FCE17E;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 0.9rem;
+}
+
 .grid-item-1 {
   float: left;
-  /* width: 246px;
+  width: 246px;
   height: 246px;
-  background: #FFDC60; */
+  /* background: #FFDC60; */
   /* border-bottom: 2px solid rgba(255,255,255,1); */
   /* font-family: 'Anton';
   font-size: 10rem;
