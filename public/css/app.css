@@ -60,11 +60,23 @@ body {
 /* ---- .grid-item ---- */
 
 .grid-numbers {
-  width: 245px;
-  height: 245px;
+  width: 246px;
+  height: 246px;
 }
 
-#overlay { 
+#overlay-01 { 
+  background-color: #FCE17E;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 0.9rem;
+}
+
+#overlay-02 { 
+  background-color: #FCE17E;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 0.9rem;
+}
+
+#overlay-03 { 
   background-color: #FCE17E;
   font-family: 'Montserrat', sans-serif;
   font-size: 0.9rem;
@@ -82,7 +94,7 @@ body {
   color: white; */
 }
 
-.grid-item-1-onhover {
+/* .grid-item-1-onhover {
   float: left;
   width: 246px;
   height: 246px;
@@ -93,7 +105,7 @@ body {
   padding: 5px 50px;
   color: white;
   display: none;
-}
+} */
 
 .grid-item-2 {
   float: left;
