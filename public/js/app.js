@@ -3,10 +3,10 @@
 $('.grid').isotope({
     itemSelector: '.grid-item',
     masonry: {
-      columnWidth: 235,
-      gutter: 0
     }
   });
+
+  
 
 //LEMON PICTURE LIGHT UP
 

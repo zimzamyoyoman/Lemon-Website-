@@ -387,6 +387,19 @@ body {
 }
 
 .c-wrapper {
+  height: 650px;
   margin-left: 300px;
   margin-bottom: 200px;
 }
+
+.clients {
+  margin-bottom: 200px;
+}
+/* ================================================================= */
+/* CONTACT SECTION CODE */
+/* ================================================================= */
+
+.contact-banner {
+  margin-top: 200px;
+}
+
