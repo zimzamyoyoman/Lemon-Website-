@@ -356,4 +356,37 @@ body {
 .grid-item--height3 { height: 470px; }
 .grid-item--height4 { height: 305px; }
 
+.wrapper {
+  margin-bottom: 200px;
+}
 
+/* .skill-grid-content {
+  margin: 0 auto;
+}
+
+.skill-icon {
+  margin-left: 80px;
+  margin-top: 20px;
+} */
+
+/* ================================================================= */
+/* CLIENTS SECTION CODE */
+/* ================================================================= */
+
+.clients-grid-container {
+  background: #FFDC60;
+  max-width: 800px;
+}
+
+.grid-item-c {
+  float: left;
+  width: 192px;
+  height: 146px;
+  background: #FFDC60;
+  margin: 4px;
+}
+
+.c-wrapper {
+  margin-left: 300px;
+  margin-bottom: 200px;
+}
