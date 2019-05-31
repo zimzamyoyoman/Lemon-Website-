@@ -180,3 +180,121 @@ body {
   margin-bottom: 20px;
   height: 650px;
 }
+
+
+
+/* ================================================================= */
+/* TEAM SECTION CODE */
+/* ================================================================= */
+
+.t1
+    {
+        background:url("../images/Bindu_ed.jpg")no-repeat;
+        width: 100%;
+        height:12rem;
+    }
+    .t1:hover{
+        background:url("../images/Hasan_ed.jpg")no-repeat;
+
+    }
+    .t2
+    {
+        background:url("../images/Bindu_ed.jpg")no-repeat;
+        width: 100%;
+        height: 12rem;
+    }
+    .t2:hover{
+        background:url("../images/Hasan_ed.jpg")no-repeat;
+    }
+    .t3
+    {
+        background:url("../images/Bindu_ed.jpg")no-repeat;
+        width: 100%;
+        height: 12rem;
+    }
+    .t3:hover{
+        background:url("../images/Hasan_ed.jpg")no-repeat;
+    }
+    .t4
+    {
+        background:url("../images/Bindu_ed.jpg")no-repeat;
+        width: 100%;
+        height: 12rem;
+    }
+    .t4:hover{
+        background:url("../images/Hasan_ed.jpg")no-repeat;
+    }
+    .t5
+    {
+        background:url("../images/Bindu_ed.jpg")no-repeat;
+        width: 100%;
+        height: 12rem;
+    }
+    .t5:hover{
+        background:url("../images/Hasan_ed.jpg")no-repeat;
+    }
+    .t6
+    {
+        background:url("../images/Bindu_ed.jpg")no-repeat;
+        width: 100%;
+        height: 50rem;
+    }
+    .t6:hover{
+        background:url("../images/Hasan_ed.jpg")no-repeat;
+    }
+    .t7
+    {
+        background:url("../images/Bindu_ed.jpg")no-repeat;
+        width: 100%;
+        height: 50rem;
+    }
+    .t7:hover{
+        background:url("../images/Hasan_ed.jpg")no-repeat;
+    }
+    .t8
+    {
+        background:url("../images/Bindu_ed.jpg")no-repeat;
+        width: 100%;
+        height: 50rem;
+    }
+    .t8:hover{
+        background:url("../images/Hasan_ed.jpg")no-repeat;
+    }
+    .t9
+    {
+        background:url("../images/Bindu_ed.jpg")no-repeat;
+        width: 100%;
+        height: 50rem;
+    }
+    .t9:hover{
+        background:url("../images/Hasan_ed.jpg")no-repeat;
+    }
+   
+
+
+    #teamsliderleft p {
+    font: 9pt "Lucida Grande",Arial,sans-serif;
+}
+#arrowteam {
+    border-bottom: 25px solid transparent;
+    border-left: 25px solid #4F4F4F;
+    border-top: 25px solid transparent;
+    height: 0;
+    right: -1.5rem;
+    position: absolute;
+    top: 3rem;
+    width: 0;
+    z-index: 12;
+    margin-right:5 rem;
+}
+
+    #teamsliderleft {
+    background-color: #D26303;
+    float: left;
+    padding: 1.5rem 1rem;
+    margin-top: 1 rem;;
+    position: relative;
+    width: 150px;
+    color: #FFFFFF;
+   
+}
