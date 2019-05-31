@@ -309,14 +309,21 @@ body {
 
 }
 
-/* .fact-slides {
-  padding: 50px;
-} */
-
 .carousel-inner > .carousel-item > img {
   margin: 0 auto;
 }
 
+.carousel-control-prev-icon {
+  height: 100px;
+  width: 100px;
+  background-image: "../images/sld-prv-active.png";
+}
+
+.carousel-control-next-icon {
+  height: 100px;
+  width: 100px;
+  background-image: "../images/sld-nxt-active.png";
+}
 
 /* ================================================================= */
 /* CLIENT SECTION CODE */
