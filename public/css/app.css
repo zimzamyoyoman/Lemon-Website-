@@ -159,3 +159,24 @@ body {
   height: 246px;
   width: 246px;
 }
+
+.niche-banner {
+  margin-bottom: 20px;
+}
+
+.grid-item-w1 {
+  float: left;
+  width: 190px;
+  height: 190px;
+}
+
+#overlay-w1 { 
+  background-color: #FCE17E;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 0.9rem;
+}
+
+.wrapper {
+  margin-bottom: 20px;
+  height: 650px;
+}
