@@ -198,7 +198,7 @@ body {
 }
 
 #teamsliderleft {
-  background-color: #D26303;
+  background-color: #FFDC60;
   float: left;
   padding: 1.5rem 1rem;
   margin-top: 1 rem;;
@@ -213,6 +213,59 @@ body {
   height: 193px;
   background: #FFDC60;
   margin: 4px;
+}
+
+.hovereffect {
+  position: relative;
+  text-align: center;
+  cursor: default;
+}
+
+.hovereffect .overlay {
+  width: 100%;
+  position: absolute;
+  overflow: hidden;
+  left: 0;
+  top: auto;
+  bottom: 0;  
+  height: 4.75em;
+  -webkit-transition: -webkit-transform 0.35s;
+  transition: transform 0.35s;
+  -webkit-transform: translate3d(0,100%,0);
+  transform: translate3d(0,100%,0);
+  visibility: hidden;
+}
+
+.hovereffect h2 {
+  text-transform: uppercase;
+  color: #fff;
+  text-align: center;
+  position: relative;
+  font-size: 14px;
+  padding: 3px;
+  background: rgba(0, 0, 0, 0.6);
+  margin: 0px;
+  display: inline-block;
+  width: 145px;
+}
+
+.hovereffect h2 {
+-webkit-transition: -webkit-transform 0.35s;
+transition: transform 0.35s;
+-webkit-transform: translate3d(0,200%,0);
+transform: translate3d(0,200%,0);
+visibility: visible;
+}
+
+.hovereffect:hover .overlay,
+.hovereffect:hover h2 {
+-webkit-transform: translate3d(0,0,0);
+transform: translate3d(0,0,0);
+}
+
+.hovereffect:hover h2 {
+-webkit-transition-delay: 0.05s;
+transition-delay: 0.05s;
 }
 
 /* [1] The container */
