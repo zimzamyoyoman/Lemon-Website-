@@ -373,6 +373,7 @@ width: 50px;
 margin: 0 auto;
 display: flex;
 justify-content: center;
+margin-top: 20px;
 }
 
 .skill-hr {
@@ -396,6 +397,11 @@ justify-content: center;
   display: flex;
   justify-content: center;
   text-align: center;
+}
+
+.skill-lime {
+  width: 235px;
+  height: 235px;
 }
 
 /* ================================================================= */
