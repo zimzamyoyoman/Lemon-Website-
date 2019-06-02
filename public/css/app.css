@@ -368,6 +368,16 @@ transition-delay: 0.05s;
   flex-direction: column;
 }
 
+.skill-grid-content-horizontal {
+  width: 100%;
+  height: 100%;
+  color: white;
+  font-family: 'Marvel', sans-serif;
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+}
+
 .skill-icon {
 width: 50px;
 margin: 0 auto;
@@ -402,6 +412,10 @@ margin-top: 20px;
 .skill-lime {
   width: 235px;
   height: 235px;
+}
+
+.skill-grid-horizontal {
+  font-size: 1.5rem;
 }
 
 /* ================================================================= */
