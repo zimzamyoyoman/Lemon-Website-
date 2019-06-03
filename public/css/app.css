@@ -507,13 +507,16 @@ margin-top: 20px;
   width: 190px;
   height: 185px;
   background: #0D8;
-  border: 2px solid #333;
-  border-color: hsla(0, 0%, 0%, 0.7);
+  border: 1px solid black;
+  margin: 4px;
 }
 
-.grid-item--width2-w { width: 365px; }
-.grid-item--width3-w { width: 375px; }
+.grid-item--width2-w { width: 366px; }
+.grid-item--width3-w { width: 181px; }
+.grid-item--width4-w { width: 375px; }
+
 .grid-item--height2-w { height: 370px; }
-.grid-item--height3-w { height: 450px; }
-.grid-item--height4-w { height: 250px; }
-.grid-item--height5-w { height: 275px; }
+.grid-item--height3-w { height: 383px; }
+.grid-item--height4-w { height: 453px; }
+.grid-item--height5-w { height: 254px; }
+.grid-item--height6-w { height: 276px; }
