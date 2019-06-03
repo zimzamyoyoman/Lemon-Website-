@@ -424,7 +424,7 @@ margin-top: 20px;
 
 .clients-grid-container {
   background: #FFDC60;
-  max-width: 800px;
+  max-width: 1000px;
 }
 
 .grid-item-c {
@@ -433,22 +433,53 @@ margin-top: 20px;
   height: 146px;
   background: #FFDC60;
   margin: 4px;
+  border: 1px solid white;
+}
+
+.grid-item-c:hover {
+  transform: scale(1.1);
+}
+
+.grid-item-img {
+  width: 192px;
+  height: 146px;
+}
+
+#overlay-c1 { 
+  background-color: #FCE17E;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 9px;
 }
 
 .c-wrapper {
   height: 650px;
-  margin-left: 300px;
+  margin-left: 200px;
   margin-bottom: 200px;
 }
 
 .clients {
   margin-bottom: 200px;
 }
-/* ================================================================= */
-/* CONTACT SECTION CODE */
-/* ================================================================= */
 
-.contact-banner {
-  margin-top: 200px;
+.da-thumbs li {
+	float: left;
+	margin: 5px;
+	background: #fff;
+	padding: 2px;
+	position: relative;
+  box-shadow: 0 1px 3px rgba(0,0,0,0.1);
+  list-style: none;
 }
+
+.client-img {
+  height: 150px;
+  border: 1px solid white;
+}
+
+#client-details { 
+  background-color: #FCE17E;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 0.9rem;
+}
+
 

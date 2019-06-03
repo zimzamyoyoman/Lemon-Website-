@@ -6,8 +6,6 @@ $('.grid').isotope({
     }
   });
 
-  
-
 //LEMON PICTURE LIGHT UP
 
 //NUMBER 1
@@ -40,3 +38,4 @@ $(".grid-item-8").on("mouseover", function(){
 $(".grid-item-8").on("mouseleave", function(){
   $(".grid-lemons-4").attr("src", "../images/dull-lemon.jpg");
 }); 
+
