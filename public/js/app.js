@@ -5,6 +5,15 @@ $('.grid').isotope({
     masonry: {
     }
   });
+  
+  $('.grid-w').isotope({
+    itemSelector: '.grid-item-w',
+    masonry: {
+      gutter: 0
+    }
+  });
+  
+  
 
 //LEMON PICTURE LIGHT UP
 

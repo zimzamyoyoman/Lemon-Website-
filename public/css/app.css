@@ -326,7 +326,6 @@ transition-delay: 0.05s;
 
 .grid {
   margin-left: 75px;
-  max-width: 1200px;
 }
 
 /* clear fix */
@@ -482,4 +481,39 @@ margin-top: 20px;
   font-size: 0.9rem;
 }
 
+/* ================================================================= */
+/* WORK SECTION CODE */
+/* ================================================================= */
 
+* { box-sizing: border-box; }
+
+/* ---- grid ---- */
+
+.grid-w {
+  max-width: 1000px;
+}
+
+/* clear fix */
+.grid-w:after {
+  content: '';
+  display: block;
+  clear: both;
+}
+
+/* ---- .grid-item ---- */
+
+.grid-item-w {
+  float: left;
+  width: 190px;
+  height: 185px;
+  background: #0D8;
+  border: 2px solid #333;
+  border-color: hsla(0, 0%, 0%, 0.7);
+}
+
+.grid-item--width2-w { width: 365px; }
+.grid-item--width3-w { width: 375px; }
+.grid-item--height2-w { height: 370px; }
+.grid-item--height3-w { height: 450px; }
+.grid-item--height4-w { height: 250px; }
+.grid-item--height5-w { height: 275px; }
