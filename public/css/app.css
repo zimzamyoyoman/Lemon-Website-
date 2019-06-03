@@ -500,6 +500,18 @@ margin-top: 20px;
   clear: both;
 }
 
+.grid2 {
+  max-width: 1000px;
+  max-height: 400px;
+}
+
+/* clear fix */
+.grid2:after {
+  content: '';
+  display: block;
+  clear: both;
+}
+
 /* ---- .grid-item ---- */
 
 .grid-item-w {
@@ -520,3 +532,10 @@ margin-top: 20px;
 .grid-item--height4-w { height: 453px; }
 .grid-item--height5-w { height: 254px; }
 .grid-item--height6-w { height: 276px; }
+
+.grid-item--width10-w { width: 1000px; }
+.grid-item--height10-w { height: 600px; }
+
+.id {
+  display: none;
+}
