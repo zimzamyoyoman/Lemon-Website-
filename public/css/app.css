@@ -605,3 +605,22 @@ margin-top: 20px;
   -webkit-transform: translate3d(0,0,0);
   transform: translate3d(0,0,0);
 }
+
+.work-modal-body {
+  font-size: 10px;
+  font-family: 'Raleway';
+}
+
+.work-modal-header {
+  text-transform: uppercase;
+  font-size: 20px;
+  line-height: 20px;
+  font-family: 'Anton';
+  color: black;
+}
+
+.work-modal-footer {
+  font-size: 12px;
+  margin-right: 20px;
+  font-family: 'Raleway';
+}
