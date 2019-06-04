@@ -638,7 +638,6 @@ margin-top: 20px;
   height: 890px;
   background-color: #FFDC60;
   margin: 0;
-  padding: 0;
   margin-left: 75px;
 }
 
@@ -647,9 +646,34 @@ margin-top: 20px;
   height: 890px;
   background-color: #FCE17E;
   margin: 0;
-  padding: 0;
 }
 
 .col-md-6 {
   padding: 2px;
+}
+
+.address {
+  padding: 70px 90px 20px 60px;
+}
+
+section div h2 {
+  font-family: 'Anton';
+  text-transform: uppercase;
+  color: white;
+}
+
+section div p, section a {
+  font-family: 'Raleway';
+  line-height: 20px;
+  color: white;
+  margin: 20px 0;
+}
+
+section div label {
+  font-family: 'Anton';
+  text-transform: uppercase;
+  line-height: 20px;
+  color: white;
+  margin: 20px 0;
+  font-size: 20px;
 }
