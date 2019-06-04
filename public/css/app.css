@@ -491,6 +491,7 @@ margin-top: 20px;
 
 .grid-w {
   max-width: 1000px;
+  vertical-align: middle;
 }
 
 /* clear fix */
@@ -547,6 +548,7 @@ margin-top: 20px;
   -webkit-transform: scale(0,1);
   -ms-transform: scale(0,1);
   transform: scale(0,1);
+  vertical-align: middle;
 }
 
 .hovereffect-w:hover .overlay {
@@ -597,18 +599,7 @@ margin-top: 20px;
   transform: translate3d(0,-100%,0);
 }
 
-.hovereffect-w a, .hovereffect-w p {
-  color: #FFF;
-  padding: 1em 0;
-  opacity: 0;
-  filter: alpha(opacity=0);
-  -webkit-transition: opacity 0.35s, -webkit-transform 0.35s;
-  transition: opacity 0.35s, transform 0.35s;
-  -webkit-transform: translate3d(0,100%,0);
-  transform: translate3d(0,100%,0);
-}
-
-.hovereffect-w:hover a, .hovereffect-w:hover p, .hovereffect-w:hover h2 {
+.hovereffect-w:hover h2 {
   opacity: 1;
   filter: alpha(opacity=100);
   -webkit-transform: translate3d(0,0,0);
