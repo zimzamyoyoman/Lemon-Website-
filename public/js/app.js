@@ -50,27 +50,27 @@ $(".grid-item-8").on("mouseleave", function () {
 
 //WORK SECTION JQUERY
 
-var $grid = $('.grid-w').isotope({
-  itemSelector: '.grid-item-w',
-  masonry: {
-  }
-});
+// var $grid = $('.grid-w').isotope({
+//   itemSelector: '.grid-item-w',
+//   masonry: {
+//   }
+// });
 
-$(document).ready(function () {
-  $(".grid-item-w").click(function () {
-    alert("The grid item was clicked!");
-    // create new item elements
-    var $items = $('<div class="grid-item-w grid-item--width10-w grid-item--height10-w ad"> <button onclick="myFunction()">Try it</button> </div>');
-    // append items to grid
-    $grid.isotope('insert', $items)
-  });
-});
+// $(document).ready(function () {
+//   $(".grid-item-w").click(function () {
+//     alert("The grid item was clicked!");
+//     // create new item elements
+//     var $items = $('<div class="grid-item-w grid-item--width10-w grid-item--height10-w ad"> <button onclick="myFunction()">Try it</button> </div>');
+//     // append items to grid
+//     $grid.isotope('insert', $items)
+//   });
+// });
 
-$grid.on( 'click', '.ad', function() {
-  // remove clicked element
-  $grid.isotope( 'remove', this )
-    // layout remaining item elements
-    .isotope('layout');
-});
+// $grid.on( 'click', '.ad', function() {
+//   // remove clicked element
+//   $grid.isotope( 'remove', this )
+//     // layout remaining item elements
+//     .isotope('layout');
+// });
 
 
