@@ -48,19 +48,7 @@ $(".grid-item-8").on("mouseleave", function () {
   $(".grid-lemons-4").attr("src", "../images/dull-lemon.jpg");
 });
 
-// PARALLAX SCROLLING
-
-// var controller = new ScrollMagic.Controller();
-
-// $(function () { // wait for document ready
-//   // build scene
-//   var scene = new ScrollMagic.Scene({ triggerElement: "#pin2" })
-//     .setPin("#pin2")
-//     .addIndicators({ name: "2 (duration: 0)" }) // add indicators (requires plugin)
-//     .addTo(controller);
-// });
-
-//  SCROLLMAGIC FOR NICHE SECTION 
+//  SCROLLMAGIC 
 
 $(document).ready(function () {
 
@@ -161,7 +149,7 @@ $(document).ready(function () {
 
   var grid8 = new ScrollMagic.Scene({
     triggerElement: '#grid4',
-    triggerHook: 0.3
+    triggerHook: 0.3,
   })
     .setClassToggle('#grid8', 'fade-in')
     .addIndicators({
@@ -185,4 +173,35 @@ $(document).ready(function () {
     })
     .addTo(controller);
 
+  var teamBackground = new ScrollMagic.Scene({
+    triggerElement: '#team-trigger',
+    triggerHook: 0.7
+    
+  })
+    .setClassToggle('.team', 'team-background')
+    .addIndicators({
+      name: 'niche-background',
+      colorTrigger: 'black',
+      indent: 200,
+      colorStart: '#75C695'
+    })
+    .addTo(controller);
+
+});
+
+// FACTS SECTION CODE 
+
+$(document).ready(function(){
+  $("#next-arrow").click(function(){
+    $(".fact-lemon-imgs").animate({
+      left: '-=400px'
+    }, 800, 'swing');
+  });
+});
+$(document).ready(function(){
+  $("#prev-arrow").click(function(){
+    $(".fact-lemon-imgs").animate({
+      left: '+=400px'
+    }, 800, 'swing');
+  });
 });
