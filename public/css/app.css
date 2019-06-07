@@ -1,7 +1,7 @@
 body {
     background: #ffffff;
     overflow-x: hidden;
-    background-image: url("../images/lemons.jpg");
+    /* background-image: url("../images/lemons.jpg"); */
     background-size: auto;
 }
 
@@ -46,10 +46,9 @@ body {
 /* ========================================= */
 
 #home-background {
-  height: 600px;
+  /* height: 1245px; */
+  width: 1550px;
 }
-
-
 
 /* ========================================= */
 /* NICHE SECTION CODE */
@@ -202,6 +201,20 @@ body {
   opacity: 1;
   transform: translateY(0);
 }
+
+.niche {
+  opacity: 0;
+  transition: all 1s ease-in-out;
+  height: 1298px;
+}
+
+.niche-background { 
+  opacity: 1;
+  transition: all 1s ease-in-out;
+  transform: translateY(0);
+  background-image: url("../images/lemons.jpg");
+}
+
 
 
 

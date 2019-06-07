@@ -172,4 +172,17 @@ $(document).ready(function () {
     })
     .addTo(controller);
 
+  var nicheBackground = new ScrollMagic.Scene({
+    triggerElement: '#niche-trigger',
+    triggerHook: 0.9
+  })
+    .setClassToggle('.niche', 'niche-background')
+    .addIndicators({
+      name: 'niche-background',
+      colorTrigger: 'black',
+      indent: 200,
+      colorStart: '#75C695'
+    })
+    .addTo(controller);
+
 });
