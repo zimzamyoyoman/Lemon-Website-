@@ -5,6 +5,10 @@ body {
     background-size: auto;
 }
 
+/* ======================================== */
+/* BANNER CODE */
+/* ======================================== */
+
 #sectionhead {
     height: 64px;
     text-align: center;
@@ -36,6 +40,20 @@ body {
     font-size: 19px;
     padding: 8px 0 0 66px;
 }
+
+/* ========================================= */
+/* HOME SECTION CODE */
+/* ========================================= */
+
+#home-background {
+  height: 600px;
+}
+
+
+
+/* ========================================= */
+/* NICHE SECTION CODE */
+/* ========================================= */
 
 * { box-sizing: border-box; }
 
@@ -172,6 +190,17 @@ body {
 .wrapper {
   margin-bottom: 20px;
   height: 650px;
+}
+
+.niche-scroll {
+  opacity: 0;
+  transform: translateY(100px);
+  transition: all 1s ease-out;
+}
+
+.niche-scroll.fade-in {
+  opacity: 1;
+  transform: translateY(0);
 }
 
 
@@ -676,4 +705,11 @@ section div label {
   color: white;
   margin: 20px 0;
   font-size: 20px;
+}
+
+
+/* PARALLAX SCROLLING */
+
+.spacer { 
+  margin: 500px;
 }

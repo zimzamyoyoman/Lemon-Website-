@@ -21,6 +21,7 @@
     "ejs": "^2.6.1",
     "express": "^4.17.0",
     "heroku": "^7.24.4",
-    "nodemon": "^1.19.0"
+    "nodemon": "^1.19.0",
+    "scrollmagic": "^2.0.7"
   }
 }

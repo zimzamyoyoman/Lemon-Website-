@@ -1,5 +1,18 @@
 <% include partials/header %>
 
+<!-- -========================================== -->
+<!-- HOME SECTION -->
+<!-- -========================================== -->
+
+<div class="container home">
+    <img id="home-background" src="../images/lemon-home.jpeg">
+</div>
+
+
+<!-- -========================================== -->
+<!-- NICHE SECTION -->
+<!-- -========================================== -->
+
 <div class="niche">
     <div class="niche-banner pt-2">
         <header id="sectionhead"><a id="niche"></a>
@@ -12,8 +25,8 @@
         </header>
     </div>
 
-    <div class="container wrapper">
-        <div class="grid-item-1">
+    <div id="niche-scroll" class="container wrapper">
+        <div id="grid1" class="grid-item-1  niche-scroll">
             <figure class="imghvr-push-up">
                 <img class="grid-numbers" src="../images/01.jpg">
 
@@ -28,19 +41,19 @@
             </figure>
         </div>
 
-        <div class="grid-item-2">
+        <div id="grid2" class="grid-item-2 niche-scroll">
             <img class="grid-lemons-2" src="../images/dull-lemon.jpg">
         </div>
 
-        <div class="grid-item-3-transparent-1"></div>
+        <div id="grid3" class="grid-item-3-transparent-1 niche-scroll"></div>
 
-        <div class="grid-item-4">
+        <div id="grid4" class="grid-item-4 niche-scroll">
             <img class="grid-lemons-4" src="../images/dull-lemon.jpg">
         </div>
 
-        <div class="grid-item-5-transparent-2"></div>
+        <div id="grid5" class="grid-item-5-transparent-2 niche-scroll"></div>
 
-        <div class="grid-item-6">
+        <div id="grid6" class="grid-item-6 niche-scroll">
             <figure class="imghvr-push-up">
                 <img class="grid-numbers" src="../images/02.jpg">
 
@@ -54,11 +67,11 @@
             </figure>
         </div>
 
-        <div class="grid-item-7">
+        <div id="grid7" class="grid-item-7 niche-scroll">
             <img class="grid-lemons-7" src="../images/dull-lemon.jpg">
         </div>
 
-        <div class="grid-item-8">
+        <div id="grid8" class="grid-item-8 niche-scroll">
             <figure class="imghvr-push-up">
                 <img class="grid-numbers" src="../images/03.jpg">
 
@@ -1886,7 +1899,8 @@
 
                                 <div class="form-group">
                                     <label for="textarea">Message</label>
-                                    <textarea class="form-control" id="textarea" rows="5" placeholder="Enter Your Message"></textarea>
+                                    <textarea class="form-control" id="textarea" rows="5"
+                                        placeholder="Enter Your Message"></textarea>
                                 </div>
 
                                 <button type="submit" class="btn btn-warning">Submit</button>
@@ -1904,5 +1918,16 @@
 
 
 
+    <!-- PARALLAX SCROLLING -->
+<!-- 
+    <div class="container m-5">
+
+        <div id="trigger2" class="spacer s0"></div>
+        <div id="pin2" class="box2 blue">
+            <img src="../images/lemon.png">
+        </div>
+        <div class="spacer s2"></div>
+
+    </div> -->
 
     <% include partials/footer %>
