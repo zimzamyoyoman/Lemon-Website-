@@ -194,14 +194,15 @@ $(document).ready(function () {
 $(document).ready(function(){
   $("#next-arrow").click(function(){
     $(".fact-lemon-imgs").animate({
-      left: '-=400px'
-    }, 800, 'swing');
+      left: '-=200px'
+    }, 600, 'swing');
   });
 });
 $(document).ready(function(){
   $("#prev-arrow").click(function(){
     $(".fact-lemon-imgs").animate({
-      left: '+=400px'
-    }, 800, 'swing');
+      left: '+=200px'
+    }, 600, 'swing');
   });
 });
+
