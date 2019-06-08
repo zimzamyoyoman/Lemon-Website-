@@ -50,6 +50,37 @@ body {
   width: 1550px;
 }
 
+#home2 {
+  height: 800px;
+  background: rgba(255,255,255,0);
+}
+
+.latest-work {
+  margin-top: 400px;
+}
+
+#home2 h3 {
+  font-family: 'Raleway';
+  margin-left: 405px;
+  background: #FFDC60;
+  width: 185px;
+  border: 1px solid black;
+}
+
+#header {
+  height: 64px;
+  text-align: center;
+  background-color: #FFD173;
+  z-index: 250;
+  position: relative;
+  margin-bottom: 5px;
+}
+
+#white {
+  background: white;
+  height: 600px;
+}
+
 /* ========================================= */
 /* NICHE SECTION CODE */
 /* ========================================= */
@@ -1041,8 +1072,6 @@ section div label {
 }
 
 #copyright {
-  margin-top: 170px;
-  margin-left: 525px;
   font-family: 'Raleway';
   font-size: 12px;
 }

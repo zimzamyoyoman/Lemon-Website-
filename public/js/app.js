@@ -494,3 +494,16 @@ $(document).ready(function () {
   });
 });
 
+//PINNING HOME SECTION
+
+$(document).ready(function () {
+  var controller5 = new ScrollMagic.Controller();
+
+  var pinHome = new ScrollMagic.Scene({
+    triggerElement: '#home',
+    triggerHook: 0,
+    duration: '300%'
+  })
+  .setPin('#home', {pushFollowers: false})
+  .addTo(controller5);
+});
