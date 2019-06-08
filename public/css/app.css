@@ -718,6 +718,67 @@ margin-top: 20px;
   font-size: 0.9rem;
 }
 
+.clients {
+  opacity: 0;
+  transition: all 1s ease-in-out;
+  transform: translateX(-200px);
+  -webkit-transform: translateY(-140px);
+  -moz-transform: translateY(-140px);
+   -ms-transform: translateY(-140px);
+    -o-transform: translateY(-140px);
+       transform: translateY(-140px);
+-webkit-transition: all 1s ease-out;
+  -moz-transition: all 1s ease-out;
+   -ms-transition: all 1s ease-out;
+    -o-transition: all 1s ease-out;
+       transition: all 1s ease-out;
+}
+
+.client-background {
+  opacity: 1;
+  transform: translateX(200px);
+  transform: translateY(160px);
+  background-image: url("../images/lemon-fact-6.png"), url("../images/lemon-skill-2.png"), url("../images/lemon-fact-1.png");
+  background-position: right top, left bottom, right bottom;
+  background-repeat: no-repeat;
+  background-size: auto auto;
+  -webkit-transform: none;
+     -moz-transform: none;
+      -ms-transform: none;
+       -o-transform: none;
+          transform: none;
+}
+
+.client-grids {
+  opacity: 0;
+  transform: rotateY(-360deg);
+  transition: all 1s ease-in-out;
+  transform: translateX(200px);
+  -webkit-transform: translateY(240px);
+  -moz-transform: translateY(240px);
+   -ms-transform: translateY(240px);
+    -o-transform: translateY(240px);
+       transform: translateY(240px);
+-webkit-transition: all 0.6s ease-out;
+  -moz-transition: all 0.6s ease-out;
+   -ms-transition: all 0.6s ease-out;
+    -o-transition: all 0.6s ease-out;
+       transition: all 0.6s ease-out;
+}
+
+.client-grid {
+  transform: rotateY(360deg);
+  opacity: 1;
+  transform: translateX(160px);
+  transform: translateY(0px);
+  opacity: 1;
+  -webkit-transform: none;
+     -moz-transform: none;
+      -ms-transform: none;
+       -o-transform: none;
+          transform: none;
+}
+
 /* ================================================================= */
 /* WORK SECTION CODE */
 /* ================================================================= */

@@ -198,8 +198,7 @@ $(document).ready(function () {
 
   var skillBackground = new ScrollMagic.Scene({
     triggerElement: '#skill-trigger',
-    triggerHook: 0.7,
-    duration: '150%'
+    triggerHook: 0.7
   })
     .setClassToggle('.skill', 'skill-background')
     // .addIndicators({
@@ -215,12 +214,12 @@ $(document).ready(function () {
     triggerHook: 0.3
   })
     .setClassToggle('#skill-grid-1', 'skill-grid')
-    .addIndicators({
-      name: 'skill-grid1',
-      colorTrigger: 'black',
-      indent: 500,
-      colorStart: '#75C695'
-    })
+    // .addIndicators({
+    //   name: 'skill-grid1',
+    //   colorTrigger: 'black',
+    //   indent: 500,
+    //   colorStart: '#75C695'
+    // })
     .addTo(controller2);
 
   var gridS2 = new ScrollMagic.Scene({
@@ -228,12 +227,12 @@ $(document).ready(function () {
     triggerHook: 0.25
   })
     .setClassToggle('#skill-grid-2', 'skill-grid')
-    .addIndicators({
-      name: 'skill-grid2',
-      colorTrigger: 'black',
-      indent: 500,
-      colorStart: '#75C695'
-    })
+    // .addIndicators({
+    //   name: 'skill-grid2',
+    //   colorTrigger: 'black',
+    //   indent: 500,
+    //   colorStart: '#75C695'
+    // })
     .addTo(controller2);
 
   var gridS3 = new ScrollMagic.Scene({
@@ -241,12 +240,12 @@ $(document).ready(function () {
     triggerHook: 0.2
   })
     .setClassToggle('#skill-grid-3', 'skill-grid')
-    .addIndicators({
-      name: 'skill-grid3',
-      colorTrigger: 'black',
-      indent: 500,
-      colorStart: '#75C695'
-    })
+    // .addIndicators({
+    //   name: 'skill-grid3',
+    //   colorTrigger: 'black',
+    //   indent: 500,
+    //   colorStart: '#75C695'
+    // })
     .addTo(controller2);
 
   var gridS4 = new ScrollMagic.Scene({
@@ -254,12 +253,12 @@ $(document).ready(function () {
     triggerHook: 0.15
   })
     .setClassToggle('#skill-grid-4', 'skill-grid-h')
-    .addIndicators({
-      name: 'skill-grid4',
-      colorTrigger: 'black',
-      indent: 500,
-      colorStart: '#75C695'
-    })
+    // .addIndicators({
+    //   name: 'skill-grid4',
+    //   colorTrigger: 'black',
+    //   indent: 500,
+    //   colorStart: '#75C695'
+    // })
     .addTo(controller2);
 
   var gridS5 = new ScrollMagic.Scene({
@@ -267,12 +266,12 @@ $(document).ready(function () {
     triggerHook: 0.1
   })
     .setClassToggle('#skill-grid-5', 'skill-grid')
-    .addIndicators({
-      name: 'skill-grid5',
-      colorTrigger: 'black',
-      indent: 500,
-      colorStart: '#75C695'
-    })
+    // .addIndicators({
+    //   name: 'skill-grid5',
+    //   colorTrigger: 'black',
+    //   indent: 500,
+    //   colorStart: '#75C695'
+    // })
     .addTo(controller2);
 
   var gridS6 = new ScrollMagic.Scene({
@@ -280,12 +279,12 @@ $(document).ready(function () {
     triggerHook: 0.05
   })
     .setClassToggle('#skill-grid-6', 'skill-grid')
-    .addIndicators({
-      name: 'skill-grid6',
-      colorTrigger: 'black',
-      indent: 500,
-      colorStart: '#75C695'
-    })
+    // .addIndicators({
+    //   name: 'skill-grid6',
+    //   colorTrigger: 'black',
+    //   indent: 500,
+    //   colorStart: '#75C695'
+    // })
     .addTo(controller2);
 
   var gridS7 = new ScrollMagic.Scene({
@@ -293,12 +292,12 @@ $(document).ready(function () {
     triggerHook: 0
   })
     .setClassToggle('#skill-grid-7', 'skill-grid')
-    .addIndicators({
-      name: 'skill-grid7',
-      colorTrigger: 'black',
-      indent: 500,
-      colorStart: '#75C695'
-    })
+    // .addIndicators({
+    //   name: 'skill-grid7',
+    //   colorTrigger: 'black',
+    //   indent: 500,
+    //   colorStart: '#75C695'
+    // })
     .addTo(controller2);
 
   var gridS8 = new ScrollMagic.Scene({
@@ -306,15 +305,148 @@ $(document).ready(function () {
     triggerHook: -0.05
   })
     .setClassToggle('#skill-grid-8', 'skill-grid-h')
-    .addIndicators({
-      name: 'skill-grid8',
-      colorTrigger: 'black',
-      indent: 500,
-      colorStart: '#75C695'
-    })
+    // .addIndicators({
+    //   name: 'skill-grid8',
+    //   colorTrigger: 'black',
+    //   indent: 500,
+    //   colorStart: '#75C695'
+    // })
     .addTo(controller2);
 
 
+});
+
+// SCROLLMAGIC FOR CLIENTS SECTION
+
+$(document).ready(function () {
+
+  // Init ScrollMagic
+  var controller3 = new ScrollMagic.Controller();
+
+  var clientBackground = new ScrollMagic.Scene({
+    triggerElement: '#client-trigger',
+    triggerHook: 0.9
+  })
+    .setClassToggle('.clients', 'client-background')
+    .addIndicators({
+      name: 'client-background',
+      colorTrigger: 'black',
+      indent: 200,
+      colorStart: '#75C695'
+    })
+    .addTo(controller3);
+
+  var gridC1 = new ScrollMagic.Scene({
+    triggerElement: '#client-grid-1',
+    triggerHook: 0.9,
+    duration: '150%'
+  })
+    .setClassToggle('#client-grid-1', 'client-grid')
+    .addTo(controller3);
+
+  var gridC2 = new ScrollMagic.Scene({
+    triggerElement: '#client-grid-2',
+    triggerHook: 0.85,
+    duration: '150%'
+  })
+    .setClassToggle('#client-grid-2', 'client-grid')
+    .addTo(controller3);
+
+  var gridC3 = new ScrollMagic.Scene({
+    triggerElement: '#client-grid-3',
+    triggerHook: 0.8,
+    duration: '150%'
+  })
+    .setClassToggle('#client-grid-3', 'client-grid')
+    .addTo(controller3);
+
+  var gridC4 = new ScrollMagic.Scene({
+    triggerElement: '#client-grid-1',
+    triggerHook: 0.75,
+    duration: '150%'
+  })
+    .setClassToggle('#client-grid-4', 'client-grid')
+    .addTo(controller3);
+
+  var gridC5 = new ScrollMagic.Scene({
+    triggerElement: '#client-grid-1',
+    triggerHook: 0.7,
+    duration: '150%'
+  })
+    .setClassToggle('#client-grid-5', 'client-grid')
+    .addTo(controller3);
+
+  var gridC6 = new ScrollMagic.Scene({
+    triggerElement: '#client-grid-1',
+    triggerHook: 0.65,
+    duration: '150%'
+  })
+    .setClassToggle('#client-grid-6', 'client-grid')
+    .addTo(controller3);
+
+  var gridC7 = new ScrollMagic.Scene({
+    triggerElement: '#client-grid-1',
+    triggerHook: 0.6,
+    duration: '150%'
+  })
+    .setClassToggle('#client-grid-7', 'client-grid')
+    .addTo(controller3);
+
+  var gridC8 = new ScrollMagic.Scene({
+    triggerElement: '#client-grid-1',
+    triggerHook: 0.55,
+    duration: '150%'
+  })
+    .setClassToggle('#client-grid-8', 'client-grid')
+    .addTo(controller3);
+
+  var gridC9 = new ScrollMagic.Scene({
+    triggerElement: '#client-grid-1',
+    triggerHook: 0.5,
+    duration: '150%'
+  })
+    .setClassToggle('#client-grid-9', 'client-grid')
+    .addTo(controller3);
+
+  var gridC10 = new ScrollMagic.Scene({
+    triggerElement: '#client-grid-1',
+    triggerHook: 0.45,
+    duration: '150%'
+  })
+    .setClassToggle('#client-grid-10', 'client-grid')
+    .addTo(controller3);
+
+  var gridC11 = new ScrollMagic.Scene({
+    triggerElement: '#client-grid-1',
+    triggerHook: 0.4,
+    duration: '150%'
+  })
+    .setClassToggle('#client-grid-11', 'client-grid')
+    .addTo(controller3);
+
+  var gridC12 = new ScrollMagic.Scene({
+    triggerElement: '#client-grid-1',
+    triggerHook: 0.35,
+    duration: '150%'
+  })
+    .setClassToggle('#client-grid-12', 'client-grid')
+    .addTo(controller3);
+
+  var gridC13 = new ScrollMagic.Scene({
+    triggerElement: '#client-grid-1',
+    triggerHook: 0.3,
+    duration: '150%'
+  })
+    .setClassToggle('#client-grid-13', 'client-grid')
+    .addTo(controller3);
+
+  var gridC14 = new ScrollMagic.Scene({
+    triggerElement: '#client-grid-1',
+    triggerHook: 0.25,
+    duration: '150%'
+  })
+    .setClassToggle('#client-grid-14', 'client-grid')
+    .addTo(controller3);
 });
 
 // FACTS SECTION CODE 
