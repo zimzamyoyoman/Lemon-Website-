@@ -449,6 +449,18 @@ $(document).ready(function () {
     .addTo(controller3);
 });
 
+$(document).ready(function () {
+
+  // Init ScrollMagic
+  var controller3 = new ScrollMagic.Controller();
+
+  var clientBackground = new ScrollMagic.Scene({
+    triggerElement: '#work-trigger',
+  })
+    .setClassToggle('.work', 'work-background')
+    .addTo(controller3);
+});
+
 // FACTS SECTION CODE 
 
 $(document).ready(function () {
