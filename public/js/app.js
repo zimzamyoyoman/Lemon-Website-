@@ -449,6 +449,8 @@ $(document).ready(function () {
     .addTo(controller3);
 });
 
+// SCROLLING EFFECT FOR WORK SECTION
+
 $(document).ready(function () {
 
   // Init ScrollMagic
@@ -459,6 +461,26 @@ $(document).ready(function () {
   })
     .setClassToggle('.work', 'work-background')
     .addTo(controller3);
+});
+
+// SCROLLING EFFECT FOR CONTACT SECTION
+
+$(document).ready(function () {
+
+  // Init ScrollMagic
+  var controller4 = new ScrollMagic.Controller();
+
+  var contactBackground = new ScrollMagic.Scene({
+    triggerElement: '#contact-trigger',
+  })
+    .setClassToggle('.contact', 'contact-background')
+    .addIndicators({
+      name: 'client-background',
+      colorTrigger: 'black',
+      indent: 200,
+      colorStart: '#75C695'
+    })
+    .addTo(controller4);
 });
 
 // FACTS SECTION CODE 
