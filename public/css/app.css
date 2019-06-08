@@ -1024,3 +1024,25 @@ section div label {
 						transform: none;
 }
 
+/* FOOTER SECTION */
+
+.footer {
+  margin-top: 50px;
+  height: 400px;
+  background-image: url("../images/footer.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: 400px;
+}
+
+#footer2 {
+  height: 200px;
+  background: #FFD173;
+}
+
+#copyright {
+  margin-top: 170px;
+  margin-left: 525px;
+  font-family: 'Raleway';
+  font-size: 12px;
+}

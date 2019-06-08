@@ -474,16 +474,10 @@ $(document).ready(function () {
     triggerElement: '#contact-trigger',
   })
     .setClassToggle('.contact', 'contact-background')
-    .addIndicators({
-      name: 'client-background',
-      colorTrigger: 'black',
-      indent: 200,
-      colorStart: '#75C695'
-    })
     .addTo(controller4);
 });
 
-// FACTS SECTION CODE 
+// FACTS SECTION CODE s
 
 $(document).ready(function () {
   $("#next-arrow").click(function () {
