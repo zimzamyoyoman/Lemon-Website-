@@ -328,17 +328,17 @@ $(document).ready(function () {
     triggerHook: 0.9
   })
     .setClassToggle('.clients', 'client-background')
-    .addIndicators({
-      name: 'client-background',
-      colorTrigger: 'black',
-      indent: 200,
-      colorStart: '#75C695'
-    })
+    // .addIndicators({
+    //   name: 'client-background',
+    //   colorTrigger: 'black',
+    //   indent: 200,
+    //   colorStart: '#75C695'
+    // })
     .addTo(controller3);
 
   var gridC1 = new ScrollMagic.Scene({
     triggerElement: '#client-grid-1',
-    triggerHook: 0.9,
+    triggerHook: 0.7,
     duration: '150%'
   })
     .setClassToggle('#client-grid-1', 'client-grid')
@@ -346,7 +346,7 @@ $(document).ready(function () {
 
   var gridC2 = new ScrollMagic.Scene({
     triggerElement: '#client-grid-2',
-    triggerHook: 0.85,
+    triggerHook: 0.65,
     duration: '150%'
   })
     .setClassToggle('#client-grid-2', 'client-grid')
@@ -354,7 +354,7 @@ $(document).ready(function () {
 
   var gridC3 = new ScrollMagic.Scene({
     triggerElement: '#client-grid-3',
-    triggerHook: 0.8,
+    triggerHook: 0.6,
     duration: '150%'
   })
     .setClassToggle('#client-grid-3', 'client-grid')
@@ -362,7 +362,7 @@ $(document).ready(function () {
 
   var gridC4 = new ScrollMagic.Scene({
     triggerElement: '#client-grid-1',
-    triggerHook: 0.75,
+    triggerHook: 0.55,
     duration: '150%'
   })
     .setClassToggle('#client-grid-4', 'client-grid')
@@ -370,7 +370,7 @@ $(document).ready(function () {
 
   var gridC5 = new ScrollMagic.Scene({
     triggerElement: '#client-grid-1',
-    triggerHook: 0.7,
+    triggerHook: 0.5,
     duration: '150%'
   })
     .setClassToggle('#client-grid-5', 'client-grid')
@@ -378,7 +378,7 @@ $(document).ready(function () {
 
   var gridC6 = new ScrollMagic.Scene({
     triggerElement: '#client-grid-1',
-    triggerHook: 0.65,
+    triggerHook: 0.45,
     duration: '150%'
   })
     .setClassToggle('#client-grid-6', 'client-grid')
@@ -386,7 +386,7 @@ $(document).ready(function () {
 
   var gridC7 = new ScrollMagic.Scene({
     triggerElement: '#client-grid-1',
-    triggerHook: 0.6,
+    triggerHook: 0.4,
     duration: '150%'
   })
     .setClassToggle('#client-grid-7', 'client-grid')
@@ -394,7 +394,7 @@ $(document).ready(function () {
 
   var gridC8 = new ScrollMagic.Scene({
     triggerElement: '#client-grid-1',
-    triggerHook: 0.55,
+    triggerHook: 0.35,
     duration: '150%'
   })
     .setClassToggle('#client-grid-8', 'client-grid')
@@ -402,7 +402,7 @@ $(document).ready(function () {
 
   var gridC9 = new ScrollMagic.Scene({
     triggerElement: '#client-grid-1',
-    triggerHook: 0.5,
+    triggerHook: 0.3,
     duration: '150%'
   })
     .setClassToggle('#client-grid-9', 'client-grid')
@@ -410,7 +410,7 @@ $(document).ready(function () {
 
   var gridC10 = new ScrollMagic.Scene({
     triggerElement: '#client-grid-1',
-    triggerHook: 0.45,
+    triggerHook: 0.25,
     duration: '150%'
   })
     .setClassToggle('#client-grid-10', 'client-grid')
@@ -418,7 +418,7 @@ $(document).ready(function () {
 
   var gridC11 = new ScrollMagic.Scene({
     triggerElement: '#client-grid-1',
-    triggerHook: 0.4,
+    triggerHook: 0.2,
     duration: '150%'
   })
     .setClassToggle('#client-grid-11', 'client-grid')
@@ -426,7 +426,7 @@ $(document).ready(function () {
 
   var gridC12 = new ScrollMagic.Scene({
     triggerElement: '#client-grid-1',
-    triggerHook: 0.35,
+    triggerHook: 0.2,
     duration: '150%'
   })
     .setClassToggle('#client-grid-12', 'client-grid')
@@ -434,7 +434,7 @@ $(document).ready(function () {
 
   var gridC13 = new ScrollMagic.Scene({
     triggerElement: '#client-grid-1',
-    triggerHook: 0.3,
+    triggerHook: 0.2,
     duration: '150%'
   })
     .setClassToggle('#client-grid-13', 'client-grid')
@@ -442,7 +442,7 @@ $(document).ready(function () {
 
   var gridC14 = new ScrollMagic.Scene({
     triggerElement: '#client-grid-1',
-    triggerHook: 0.25,
+    triggerHook: 0.2,
     duration: '150%'
   })
     .setClassToggle('#client-grid-14', 'client-grid')
