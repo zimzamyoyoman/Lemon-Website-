@@ -106,21 +106,30 @@ body {
 }
 
 #overlay-01 { 
+  text-transform: uppercase;
   background-color: #FCE17E;
-  font-family: 'Montserrat', sans-serif;
-  font-size: 0.9rem;
+  font-family: 'Anton', sans-serif;
+  font-size: 2.2rem;
+  line-height: 34px;
+  text-align: left;
 }
 
 #overlay-02 { 
+  text-transform: uppercase;
   background-color: #FCE17E;
-  font-family: 'Montserrat', sans-serif;
-  font-size: 0.9rem;
+  font-family: 'Anton', sans-serif;
+  font-size: 2.2rem;
+  line-height: 34px;
+  text-align: left;
 }
 
 #overlay-03 { 
+  text-transform: uppercase;
   background-color: #FCE17E;
-  font-family: 'Montserrat', sans-serif;
-  font-size: 0.9rem;
+  font-family: 'Anton', sans-serif;
+  font-size: 2.2rem;
+  line-height: 34px;
+  text-align: left;
 }
 
 .grid-item-1 {
