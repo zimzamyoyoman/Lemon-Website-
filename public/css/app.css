@@ -1,5 +1,5 @@
 body {
-    background: #ffffff;
+    /* background: #ffffff; */
     overflow-x: hidden;
     /* background-image: url("../images/lemons.jpg"); */
     background-size: auto;
@@ -41,6 +41,14 @@ body {
     padding: 8px 0 0 66px;
 }
 
+#plane {
+  height: 100px;
+}
+
+#target {
+  height: 600px;
+}
+
 /* ========================================= */
 /* HOME SECTION CODE */
 /* ========================================= */
@@ -48,6 +56,7 @@ body {
 #home-background {
   /* height: 1245px; */
   width: 1550px;
+  background-attachment: fixed;
 }
 
 #home2 {
@@ -247,9 +256,23 @@ body {
 }
 
 .niche-background { 
-  opacity: 1;
-  transform: translateY(0);
   background-image: url("../images/lemons.jpg");
+  position: relative;
+  z-index: 1;
+  background-size: cover;
+  width: 100%;
+  height: 150%;
+  top: 0;
+  z-index: 1;
+  background-attachment: fixed
+}
+
+.content-wrapper {
+  position: relative;
+  z-index: 2;
+  width: 90%;
+  margin: 0 auto;
+  max-width: 1140px;
 }
 
 /* ================================================================= */
@@ -366,6 +389,7 @@ transition-delay: 0.05s;
 
 .team {
   height: 1200px;
+  position: relative;
 }
 
 
@@ -375,6 +399,8 @@ transition-delay: 0.05s;
   background-position: right top, left;
   background-repeat: no-repeat;
   background-size: auto auto;
+  position: relative;
+  background-attachment: fixed
 }
 
 /* ================================================================= */
@@ -486,6 +512,8 @@ margin-top: 20px;
   background-repeat: no-repeat;
   background-size: auto auto;
   opacity: 1;
+  background-attachment: fixed;
+  height: 100%;
 }
 
 .skill-grids {
@@ -688,15 +716,14 @@ margin-top: 20px;
   font-family: 'Raleway';
 }
 
-.work {
-  margin-bottom: 700px;
-}
 .work-background {
   background-image: url("../images/lemon-team7.jpg"), url("../images/lemon-team-1.png");
   background-position: right bottom, 0% 100%;
   background-repeat: no-repeat;
   background-size: 600px;
-	opacity: 1;
+  opacity: 1;
+  background-attachment: fixed;
+  height: 1500px;
 }
 
 
@@ -754,7 +781,9 @@ section div label {
   background-position: right, 0% 100%;
   background-repeat: no-repeat;
   background-size: 350px;
-	opacity: 1;
+  opacity: 1;
+  background-attachment: fixed;
+  height: 100%;
 }
 
 /* FOOTER SECTION */
