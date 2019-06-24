@@ -42,11 +42,19 @@ body {
 }
 
 #plane {
+  margin-top: 50px;
+  margin-left: 400px;
+  height: 100px;
+}
+
+#plane2 {
   height: 100px;
 }
 
 #target {
-  height: 600px;
+  /* background-image: url("../images/lemon-home.jpeg"); */
+  width: 100%;
+  height: 700px;
 }
 
 /* ========================================= */

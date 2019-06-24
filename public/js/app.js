@@ -215,8 +215,16 @@ $(function () { // wait for document ready
       // curviness: 1.25,
       // autoRotate: true,
       values: [
-          {x: 0,	y: -100},
-          {x: 0,	y: 0}
+          {x: 0,	y: 0},
+          {x: 0,	y: 10},
+          {x: 0,	y: 20},
+          {x: 0,	y: 30},
+          {x: 0,	y: 40},
+          {x: 0,	y: 50},
+          {x: 0,	y: 60},
+          {x: 0,	y: 70},
+          {x: 0,	y: 80},
+          {x: 0,	y: 90}
         ]
     },
     looping : {
@@ -300,16 +308,16 @@ $(function () { // wait for document ready
 
   // create tween
   var tween = new TimelineMax()
-    .add(TweenMax.to($("#plane"), 1.2, {css:{bezier:flightpath.entry}, ease:Power1.easeInOut}))
-    .add(TweenMax.to($("#plane"), 1, {css:{bezier:flightpath.looping}, ease:Power1.easeInOut}))
-    .add(TweenMax.to($("#plane"), 1.2, {css:{bezier:flightpath.leave}, ease:Power1.easeInOut}));
+    .add(TweenMax.to($("#plane"), 3, {css:{bezier:flightpath.entry}, ease:Power1.easeInOut}))
+    .add(TweenMax.to($("#plane"), 3, {css:{bezier:flightpath.looping}, ease:Power1.easeInOut}))
+    .add(TweenMax.to($("#plane"), 3, {css:{bezier:flightpath.leave}, ease:Power1.easeInOut}));
 
 
   // build scene
   var scene = new ScrollMagic.Scene({triggerElement: "#trigger", duration: 1000, offset: 400})
           .setPin("#target")
           .setTween(tween)
-          .addIndicators() // add indicators (requires plugin)
+          // .addIndicators() // add indicators (requires plugin)
           .addTo(controllerP);
 
 
