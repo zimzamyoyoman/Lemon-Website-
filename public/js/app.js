@@ -112,6 +112,15 @@ $(document).ready(function () {
     .setClassToggle('#grid8', 'fade-in')
     .addTo(controller);
 
+  // parallax scene
+  var slideParallaxScene = new ScrollMagic.Scene({
+    triggerElement: '.bcg-parallax',
+    triggerHook: 1,
+    duration: '200%'
+  })
+  .setTween(TweenMax.from('.bcg', 1, {y: '70%', ease: Power0.easeNone}))
+  .addTo(controller);
+
 });
 
 // SCROLLMAGIC FOR SKILLS SECTION
