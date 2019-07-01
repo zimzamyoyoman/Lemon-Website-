@@ -116,7 +116,7 @@ $(document).ready(function () {
   var slideParallaxScene = new ScrollMagic.Scene({
     triggerElement: '.bcg-parallax',
     triggerHook: 1,
-    duration: '200%'
+    duration: '300%'
   })
   .setTween(TweenMax.from('.bcg', 1, {y: '70%', ease: Power0.easeNone}))
   .addTo(controller);
