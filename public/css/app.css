@@ -779,16 +779,36 @@ margin-top: 20px;
   font-family: 'Raleway';
 }
 
-.work-background {
-  background-image: url("../images/lemon-team7.jpg"), url("../images/lemon-team-1.png");
-  background-position: right bottom, 0% 100%;
-  background-repeat: no-repeat;
-  background-size: 600px;
-  opacity: 1;
-  background-attachment: fixed;
+.work {
   height: 1500px;
 }
 
+.bcg-parallax-work {
+  padding: 40px 0;
+  color: #fff;
+  background-color: #fff;
+  text-align: center;
+  position: relative;
+  overflow: hidden;
+}
+
+.bcg-work {
+  background-image: url("../images/work-1.png"), url("../images/work-2.png");
+  background-position: 95% 25%, left 75%;
+  background-repeat: no-repeat;
+  background-size: 20%, 20%;
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  z-index: 1;
+}
+
+.containerWrapper-work {
+  margin: 0 auto;
+  position: relative;
+  z-index: 2;
+}
 
 /* ================================================================= */
 /* CONTACT SECTION CODE */
