@@ -126,7 +126,23 @@ $(document).ready(function () {
     triggerHook: 1,
     duration: '200%'
   })
-  .setTween(TweenMax.from('.bcg-team', 1, {y: '70%', ease: Power0.easeNone}))
+  .setTween(TweenMax.from('.bcg-team', 1, {y: '80%', ease: Power0.easeNone}))
+  .addTo(controller);
+
+  var slideParallaxSceneTeam2 = new ScrollMagic.Scene({
+    triggerElement: '.bcg-parallax-team',
+    triggerHook: 1,
+    duration: '200%'
+  })
+  .setTween(TweenMax.from('.bcg-team2', 1, {y: '40%', ease: Power0.easeNone}))
+  .addTo(controller);
+
+  var slideParallaxSceneSkill = new ScrollMagic.Scene({
+    triggerElement: '.bcg-parallax-skill',
+    triggerHook: 1,
+    duration: '220%'
+  })
+  .setTween(TweenMax.from('.bcg-skill', 1, {y: '80%', ease: Power0.easeNone}))
   .addTo(controller);
 
 });
