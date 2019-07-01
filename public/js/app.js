@@ -236,19 +236,34 @@ $(document).ready(function () {
 //PARALLAX SCENE
 
 
-// $(document).ready(function () {
+$(document).ready(function () {
 
-//   // Init ScrollMagic
-//   var controllerP = new ScrollMagic.Controller();
+  var controllerContact = new ScrollMagic.Controller();
 
-//   var slideParallaxScene = new ScrollMagic.Scene({
-//     triggerElement: '.bcg-parallax',
-//     triggerHook: 1,
-//     duration: '100%'
-//   })
-//   .setTween(TweenMax.from('.bcg', 1, {y: '-30%', ease: Power0.easeNone} ))
-//   .addTo(contollerP);
-// });
+  var slideParallaxSceneContact = new ScrollMagic.Scene({
+    triggerElement: '.bcg-parallax-contact',
+    triggerHook: 1,
+    duration: '250%'
+  })
+    .setTween(TweenMax.from('.bcg-contact', 1, { y: '30%', ease: Power0.easeNone }))
+    .addTo(controllerContact);
+
+  var slideParallaxSceneContact2 = new ScrollMagic.Scene({
+    triggerElement: '.bcg-parallax-contact',
+    triggerHook: 1,
+    duration: '250%'
+  })
+    .setTween(TweenMax.from('.bcg-contact2', 1, { y: '40%', ease: Power0.easeNone }))
+    .addTo(controllerContact);
+
+  var slideParallaxSceneContact3 = new ScrollMagic.Scene({
+    triggerElement: '.bcg-parallax-contact',
+    triggerHook: 1,
+    duration: '250%'
+  })
+    .setTween(TweenMax.from('.bcg-contact3', 1, { y: '80%', ease: Power0.easeNone }))
+    .addTo(controllerContact);
+});
 
 $(function () { // wait for document ready
   var flightpath = {

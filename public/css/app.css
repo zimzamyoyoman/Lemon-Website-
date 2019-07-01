@@ -825,7 +825,7 @@ margin-top: 20px;
 #form {
   width: 490px;
   height: 890px;
-  background-color: #FCE17E;
+  background-color: rgba(252,225,126,0.8);
   margin: 0;
 }
 
@@ -859,26 +859,64 @@ section div label {
   font-size: 20px;
 }
 
-.contact-background {
-  background-image: url("../images/lemon-team-2.png"), url("../images/lemon-team-1.png");
-  background-position: right, 0% 100%;
-  background-repeat: no-repeat;
-  background-size: 350px;
-  opacity: 1;
-  background-attachment: fixed;
-  height: 100%;
+.contact {
+  height: 2000px;
 }
+
+.bcg-parallax-contact {
+  padding: 40px 0;
+  color: #fff;
+  background-color: #fff;
+  text-align: center;
+  position: relative;
+  overflow: hidden;
+}
+
+.bcg-contact {
+  background-image: url("../images/contact.png");
+  background-position: left 10%;
+  background-repeat: no-repeat;
+  background-size: 30%, 30%;
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  z-index: 1;
+  filter: blur(3px);
+}
+
+.bcg-contact2 {
+  background-image: url("../images/contact.png");
+  background-position: right 45%;
+  background-repeat: no-repeat;
+  background-size: 40%, 40%;
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  z-index: 1;
+  filter: blur(2px);
+}
+
+.bcg-contact3 {
+  background-image: url("../images/contact.png");
+  background-position: 30% 70%;
+  background-repeat: no-repeat;
+  background-size: 70%, 70%;
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  z-index: 1;
+}
+
+.containerWrapper-contact {
+  margin: 0 auto;
+  position: relative;
+  z-index: 2;
+} 
 
 /* FOOTER SECTION */
-
-.footer {
-  margin-top: 50px;
-  height: 400px;
-  background-image: url("../images/footer.png");
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: 400px;
-}
 
 #footer2 {
   height: 200px;
@@ -889,3 +927,4 @@ section div label {
   font-family: 'Raleway';
   font-size: 12px;
 }
+
