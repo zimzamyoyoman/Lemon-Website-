@@ -403,19 +403,34 @@ transition-delay: 0.05s;
 /* https://w3bits.com/css-image-hover-zoom/ */
 
 .team {
-  height: 1200px;
-  position: relative;
+  height: 1000px;
 }
 
+.bcg-parallax-team {
+  padding: 40px 0;
+  color: #fff;
+  background-color: #fff;
+  text-align: center;
+  position: relative;
+  overflow: hidden;
+}
 
-.team.team-background { 
-  opacity: 1;
-  background-image: url("../images/lemon-team-2.png"), url("../images/lemon-team-1.png");
+.bcg-team {
+  background-image: url("../images/team-1.png"), url("../images/team-2.png");
   background-position: right top, left;
   background-repeat: no-repeat;
-  background-size: auto auto;
+  background-size: 50%, 50%;
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  z-index: 1;
+}
+
+.contentWrapper-team {
+  margin: 0 auto;
   position: relative;
-  background-attachment: fixed
+  z-index: 2;
 }
 
 /* ================================================================= */
