@@ -153,6 +153,27 @@ $(document).ready(function () {
     .setTween(TweenMax.from('.bcg-work', 1, { y: '40%', ease: Power0.easeNone }))
     .addTo(controller);
 
+  var slideParallaxSceneHome = new ScrollMagic.Scene({
+    triggerElement: '.bcg-parallax-home',
+    triggerHook: 1,
+    duration: '300%'
+  })
+    .setTween(TweenMax.from('.bcg-home', 1, { y: "-140%", ease: Power0.easeNone }))
+    .addTo(controller);
+
+  var lemonHome = new ScrollMagic.Scene({
+    triggerElement: '#niche-trigger',
+    triggerHook: 0.9
+  })
+    .setClassToggle('.bcg-home', 'bcg-home-out')
+    .addIndicators({
+      name: 'lemon home',
+      colorTrigger: 'black',
+      colorStart: '#75C695',
+      colorEnd: 'pink'
+    })
+    .addTo(controller);
+
 });
 
 // SCROLLMAGIC FOR SKILLS SECTION
@@ -265,117 +286,4 @@ $(document).ready(function () {
     .addTo(controllerContact);
 });
 
-$(function () { // wait for document ready
-  var flightpath = {
-    entry: {
-      // curviness: 1.25,
-      // autoRotate: true,
-      values: [
-        { x: 0, y: 0 },
-        { x: 0, y: 10 },
-        { x: 0, y: 20 },
-        { x: 0, y: 30 },
-        { x: 0, y: 40 },
-        { x: 0, y: 50 },
-        { x: 0, y: 60 },
-        { x: 0, y: 70 },
-        { x: 0, y: 80 },
-        { x: 0, y: 90 }
-      ]
-    },
-    looping: {
-      values: [
-        { x: 0, y: 100 },
-        { x: 0, y: 110 },
-        { x: 0, y: 120 },
-        { x: 0, y: 130 },
-        { x: 0, y: 140 },
-        { x: 0, y: 150 },
-        { x: 0, y: 160 },
-        { x: 0, y: 170 },
-        { x: 0, y: 180 },
-        { x: 0, y: 190 },
-        { x: 0, y: 200 },
-        { x: 0, y: 210 },
-        { x: 0, y: 220 },
-        { x: 0, y: 230 },
-        { x: 0, y: 240 },
-        { x: 0, y: 250 },
-        { x: 0, y: 260 },
-        { x: 0, y: 270 },
-        { x: 0, y: 280 },
-        { x: 0, y: 290 },
-        { x: 0, y: 300 },
-        { x: 0, y: 310 },
-        { x: 0, y: 320 },
-        { x: 0, y: 330 },
-        { x: 0, y: 340 },
-        { x: 0, y: 350 },
-        { x: 0, y: 360 },
-        { x: 0, y: 370 },
-        { x: 0, y: 380 },
-        { x: 0, y: 390 },
-        { x: 0, y: 400 },
-        { x: 0, y: 410 },
-        { x: 0, y: 420 },
-        { x: 0, y: 430 },
-        { x: 0, y: 440 },
-        { x: 0, y: 450 },
-        { x: 0, y: 460 },
-        { x: 0, y: 470 },
-        { x: 0, y: 480 },
-        { x: 0, y: 490 },
-        { x: 0, y: 500 },
-        { x: 0, y: 510 },
-        { x: 0, y: 520 },
-        { x: 0, y: 530 },
-        { x: 0, y: 540 },
-        { x: 0, y: 550 },
-        { x: 0, y: 560 },
-        { x: 0, y: 570 },
-        { x: 0, y: 580 },
-        { x: 0, y: 590 },
-        { x: 0, y: 600 },
-        { x: 0, y: 610 },
-        { x: 0, y: 620 },
-        { x: 0, y: 630 },
-        { x: 0, y: 640 },
-        { x: 0, y: 650 },
-        { x: 0, y: 660 },
-        { x: 0, y: 670 },
-        { x: 0, y: 680 },
-        { x: 0, y: 690 },
-        { x: 0, y: 700 },
-        { x: 0, y: 710 },
-      ]
-    },
-    leave: {
-      // curviness: 1,
-      // autoRotate: true,
-      values: [
-        { x: 0, y: 720 },
-        { x: 0, y: 730 },
-        // {x: $(window).width() + 300,	y: -100},
-      ]
-    }
-  };
-  // init controller
-  var controllerP = new ScrollMagic.Controller();
 
-  // create tween
-  var tween = new TimelineMax()
-    .add(TweenMax.to($("#plane"), 3, { css: { bezier: flightpath.entry }, ease: Power1.easeInOut }))
-    .add(TweenMax.to($("#plane"), 3, { css: { bezier: flightpath.looping }, ease: Power1.easeInOut }))
-    .add(TweenMax.to($("#plane"), 3, { css: { bezier: flightpath.leave }, ease: Power1.easeInOut }));
-
-
-  // build scene
-  var scene = new ScrollMagic.Scene({ triggerElement: "#trigger", duration: 1000, offset: 400 })
-    .setPin("#target")
-    .setTween(tween)
-    // .addIndicators() // add indicators (requires plugin)
-    .addTo(controllerP);
-
-
-
-});
