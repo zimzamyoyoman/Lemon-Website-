@@ -166,12 +166,36 @@ $(document).ready(function () {
     triggerHook: 0.9
   })
     .setClassToggle('.bcg-home', 'bcg-home-out')
-    .addIndicators({
-      name: 'lemon home',
-      colorTrigger: 'black',
-      colorStart: '#75C695',
-      colorEnd: 'pink'
-    })
+    .addTo(controller);
+
+  var slideParallaxSceneHome2 = new ScrollMagic.Scene({
+    triggerElement: '.bcg-parallax-home',
+    triggerHook: 1,
+    duration: '300%'
+  })
+    .setTween(TweenMax.from('.bcg-home2', 1, { y: "-130%", ease: Power0.easeNone }))
+    .addTo(controller);
+
+  var lemonHome2 = new ScrollMagic.Scene({
+    triggerElement: '#niche-trigger',
+    triggerHook: 0.9
+  })
+    .setClassToggle('.bcg-home2', 'bcg-home-out')
+    .addTo(controller);
+
+  var slideParallaxSceneHome3 = new ScrollMagic.Scene({
+    triggerElement: '.bcg-parallax-home',
+    triggerHook: 1,
+    duration: '300%'
+  })
+    .setTween(TweenMax.from('.bcg-home3', 1, { y: "-120%", ease: Power0.easeNone }))
+    .addTo(controller);
+
+  var lemonHome3 = new ScrollMagic.Scene({
+    triggerElement: '#niche-trigger',
+    triggerHook: 0.9
+  })
+    .setClassToggle('.bcg-home3', 'bcg-home-out')
     .addTo(controller);
 
 });
