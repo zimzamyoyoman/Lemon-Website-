@@ -77,8 +77,8 @@ body {
 }
 
 .bcg-home {
-  background-image: url("../images/lemon-isolated.png"), url("../images/lemon-isolated.png"), url("../images/lemon-isolated.png");
-  background-position: 20% 100%, 35% 100%, 40% 100%;
+  background-image: url("../images/lemon-isolated.png");
+  background-position: 40% 100%, 35% 100%, 40% 100%;
   background-repeat: no-repeat;
   background-size: 7.5%;
   position: absolute;
@@ -87,35 +87,36 @@ body {
   top: 0;
   z-index: 1;
   opacity: 1;
-  filter: blur(1px);
 }
 
 .bcg-home2 {
-  background-image: url("../images/lemon-isolated.png"), url("../images/lemon-isolated.png"), url("../images/lemon-isolated.png"); 
-  background-position: 25% 100%, 32.5% 100%, 45% 100%;
+  background-image: url("../images/lemon-isolated-1.png"); 
+  background-position: 50% 100%, 32.5% 100%, 45% 100%;
   background-repeat: no-repeat;
   background-size: 7.5%;
   position: absolute;
   width: 100%;
   height: 100%;
   top: 0;
-  z-index: 1;
+  z-index: 0;
   opacity: 1;
-  margin-top: -100px;
+  margin-top: -50px;
+  filter: blur(1px);
 }
 
 .bcg-home3 {
-  background-image: url("../images/lemon-isolated.png"), url("../images/lemon-isolated.png"), url("../images/lemon-isolated.png"); 
-  background-position: 15% 100%, 32.5% 100%, 42.5% 100%;
+  background-image: url("../images/lemon-isolated-2.png");; 
+  background-position: 30% 100%, 32.5% 100%, 42.5% 100%;
   background-repeat: no-repeat;
   background-size: 7.5%;
   position: absolute;
   width: 100%;
   height: 100%;
   top: 0;
-  z-index: 1;
+  z-index: 0;
   opacity: 1;
-  margin-top: -180px;
+  margin-top: -20px;
+  filter: blur(2px);
 }
 
 

@@ -158,7 +158,7 @@ $(document).ready(function () {
     triggerHook: 1,
     duration: '500%'
   })
-    .setTween(TweenMax.from('.bcg-home', 1, { y: "-140%", ease: Power0.easeNone }))
+    .setTween(TweenMax.from('.bcg-home', 1, { y: "-120%", ease: Power0.easeNone }))
     .addTo(controller);
 
   var lemonHome = new ScrollMagic.Scene({
@@ -173,7 +173,7 @@ $(document).ready(function () {
     triggerHook: 1,
     duration: '500%'
   })
-    .setTween(TweenMax.from('.bcg-home2', 1, { y: "-130%", ease: Power0.easeNone }))
+    .setTween(TweenMax.from('.bcg-home2', 1, { y: "-120%", ease: Power0.easeNone }))
     .addTo(controller);
 
   var lemonHome2 = new ScrollMagic.Scene({
