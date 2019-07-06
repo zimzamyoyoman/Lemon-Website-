@@ -302,7 +302,7 @@ body {
 .bcg-parallax {
   padding: 40px 0;
   color: #fff;
-  background-color: #fff;
+  /* background-color: #fff; */
   text-align: center;
   position: relative;
   overflow: hidden;
@@ -317,13 +317,13 @@ body {
   width: 100%;
   height: 100%;
   top: 0;
-  z-index: 1;
+  z-index: 0;
 }
 
 .contentWrapper {
   margin: 0 auto;
   position: relative;
-  z-index: 2;
+  z-index: 3;
 }
 
 /* ================================================================= */

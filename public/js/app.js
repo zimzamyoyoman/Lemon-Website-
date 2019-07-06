@@ -156,13 +156,13 @@ $(document).ready(function () {
   var slideParallaxSceneHome = new ScrollMagic.Scene({
     triggerElement: '.bcg-parallax-home',
     triggerHook: 1,
-    duration: '300%'
+    duration: '500%'
   })
     .setTween(TweenMax.from('.bcg-home', 1, { y: "-140%", ease: Power0.easeNone }))
     .addTo(controller);
 
   var lemonHome = new ScrollMagic.Scene({
-    triggerElement: '#niche-trigger',
+    triggerElement: '#lemonHome-trigger',
     triggerHook: 0.9
   })
     .setClassToggle('.bcg-home', 'bcg-home-out')
@@ -171,13 +171,13 @@ $(document).ready(function () {
   var slideParallaxSceneHome2 = new ScrollMagic.Scene({
     triggerElement: '.bcg-parallax-home',
     triggerHook: 1,
-    duration: '300%'
+    duration: '500%'
   })
     .setTween(TweenMax.from('.bcg-home2', 1, { y: "-130%", ease: Power0.easeNone }))
     .addTo(controller);
 
   var lemonHome2 = new ScrollMagic.Scene({
-    triggerElement: '#niche-trigger',
+    triggerElement: '#lemonHome-trigger',
     triggerHook: 0.9
   })
     .setClassToggle('.bcg-home2', 'bcg-home-out')
@@ -186,13 +186,13 @@ $(document).ready(function () {
   var slideParallaxSceneHome3 = new ScrollMagic.Scene({
     triggerElement: '.bcg-parallax-home',
     triggerHook: 1,
-    duration: '300%'
+    duration: '500%'
   })
     .setTween(TweenMax.from('.bcg-home3', 1, { y: "-120%", ease: Power0.easeNone }))
     .addTo(controller);
 
   var lemonHome3 = new ScrollMagic.Scene({
-    triggerElement: '#niche-trigger',
+    triggerElement: '#lemonHome-trigger',
     triggerHook: 0.9
   })
     .setClassToggle('.bcg-home3', 'bcg-home-out')
@@ -262,20 +262,6 @@ $(document).ready(function () {
   })
     .setClassToggle('#skill-grid-8', 'skill-grid-h')
     .addTo(controller2);
-});
-
-//PINNING HOME SECTION
-
-$(document).ready(function () {
-  var controller5 = new ScrollMagic.Controller();
-
-  var pinHome = new ScrollMagic.Scene({
-    triggerElement: '#home',
-    triggerHook: 0,
-    duration: '180%'
-  })
-    .setPin('#home', { pushFollowers: false })
-    .addTo(controller5);
 });
 
 //PARALLAX SCENE
