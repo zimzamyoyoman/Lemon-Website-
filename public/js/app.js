@@ -188,7 +188,7 @@ $(document).ready(function () {
     triggerHook: 1,
     duration: '500%'
   })
-    .setTween(TweenMax.from('.bcg-home3', 1, { y: "-120%", ease: Power0.easeNone }))
+    .setTween(TweenMax.from('.bcg-home3', 1, { y: "-116.5%", ease: Power0.easeNone }))
     .addTo(controller);
 
   var lemonHome3 = new ScrollMagic.Scene({
@@ -198,7 +198,23 @@ $(document).ready(function () {
     .setClassToggle('.bcg-home3', 'bcg-home-out')
     .addTo(controller);
 
+  var slideParallaxSceneHome4 = new ScrollMagic.Scene({
+    triggerElement: '.bcg-parallax-home',
+    triggerHook: 1,
+    duration: '500%'
+  })
+    .setTween(TweenMax.from('.bcg-home4', 1, { y: "-122.5%", ease: Power0.easeNone }))
+    .addTo(controller);
+
+  var lemonHome4 = new ScrollMagic.Scene({
+    triggerElement: '#lemonHome-trigger',
+    triggerHook: 0.9
+  })
+    .setClassToggle('.bcg-home4', 'bcg-home-out')
+    .addTo(controller);
+
 });
+
 
 // SCROLLMAGIC FOR SKILLS SECTION
 
