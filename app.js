@@ -9,6 +9,6 @@ app.get("/", function(req, res) {
 
 app.use(express.static("public"));
 
-app.listen(4200, function() {
-    console.log("Server is running on PORT 4200!");
+app.listen(8080, function() {
+    console.log("Server is running on PORT 8080!");
 });

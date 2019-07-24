@@ -173,7 +173,7 @@ $(document).ready(function () {
     triggerHook: 1,
     duration: '500%'
   })
-    .setTween(TweenMax.from('.bcg-home2', 1, { y: "-120%", ease: Power0.easeNone }))
+    .setTween(TweenMax.from('.bcg-home2', 1, { y: "-125%", ease: Power0.easeNone }))
     .addTo(controller);
 
   var lemonHome2 = new ScrollMagic.Scene({
