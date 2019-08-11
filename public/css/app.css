@@ -173,6 +173,75 @@ body {
   margin-top: 60px;
 }
 
+.bcg-home-middle-1 {
+  background-image: url("../images/lemon2.png");
+  background-position: 22.5% 100%;
+  background-repeat: no-repeat;
+  background-size: 6.25%;
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  z-index: 0;
+  opacity: 1;
+  margin-top: 60px;
+}
+
+.bcg-home-middle-2 {
+  background-image: url("../images/lemon2.png");
+  background-position: 35% 100%;
+  background-repeat: no-repeat;
+  background-size: 6.25%;
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  z-index: 0;
+  opacity: 1;
+  margin-top: -180px;
+}
+
+.bcg-home-middle-3 {
+  background-image: url("../images/lemon2.png");
+  background-position: 47.5% 100%;
+  background-repeat: no-repeat;
+  background-size: 6.25%;
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  z-index: 0;
+  opacity: 1;
+  margin-top: -320px;
+}
+
+.bcg-home-middle-4 {
+  background-image: url("../images/lemon2.png");
+  background-position: 57.5% 100%;
+  background-repeat: no-repeat;
+  background-size: 6.25%;
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  z-index: 0;
+  opacity: 1;
+  margin-top: -360px;
+}
+
+.bcg-home-middle-5 {
+  background-image: url("../images/lemon2.png");
+  background-position: 55% 100%;
+  background-repeat: no-repeat;
+  background-size: 6.25%;
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  z-index: 0;
+  opacity: 1;
+  margin-top: 30px;
+}
 
 
 .contentWrapper-home {
