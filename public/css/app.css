@@ -266,7 +266,7 @@ body {
   width: 100%;
   height: 100%;
   top: 0;
-  z-index: -1;
+  z-index: -2;
   opacity: 1;
   margin-top: -30px;
 }
@@ -280,7 +280,7 @@ body {
   width: 100%;
   height: 100%;
   top: 0;
-  z-index: -1;
+  z-index: -3;
   opacity: 1;
   margin-top: -30px;
 }
@@ -294,7 +294,7 @@ body {
   width: 100%;
   height: 100%;
   top: 0;
-  z-index: -1;
+  z-index: -4;
   opacity: 1;
   margin-top: -200px;
 }
@@ -308,7 +308,7 @@ body {
   width: 100%;
   height: 100%;
   top: 0;
-  z-index: -1;
+  z-index: -5;
   opacity: 1;
   margin-top: -200px;
 }
@@ -322,10 +322,134 @@ body {
   width: 100%;
   height: 100%;
   top: 0;
-  z-index: -1;
+  z-index: -6;
   opacity: 1;
   margin-top: -200px;
 }
+
+.bcg-home-extra-1{
+  background-image: url("../images/lemon4.png");
+  background-position: 55% 100%;
+  background-repeat: no-repeat;
+  background-size: 5.75%;
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  z-index: -7;
+  opacity: 1;
+}
+
+.bcg-home-extra-2{
+  background-image: url("../images/lemon4.png");
+  background-position: 50% 100%;
+  background-repeat: no-repeat;
+  background-size: 5.75%;
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  z-index: -8;
+  opacity: 1;
+}
+
+.bcg-home-extra-3{
+  background-image: url("../images/lemon4.png");
+  background-position: 45% 100%;
+  background-repeat: no-repeat;
+  background-size: 5.75%;
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  z-index: -9;
+  opacity: 1;
+  margin-top: -360px;
+}
+
+.bcg-home-extra-4{
+  background-image: url("../images/lemon4.png");
+  background-position: 40% 100%;
+  background-repeat: no-repeat;
+  background-size: 5.75%;
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  z-index: -10;
+  opacity: 1;
+  margin-top: 330px;
+}
+
+.bcg-home-extra-5{
+  background-image: url("../images/lemon4.png");
+  background-position: 35% 100%;
+  background-repeat: no-repeat;
+  background-size: 5.75%;
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  z-index: -11;
+  opacity: 1;
+  margin-top: 400px;
+}
+
+.bcg-home-extra-6{
+  background-image: url("../images/lemon4.png");
+  background-position: 30% 100%;
+  background-repeat: no-repeat;
+  background-size: 5.75%;
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  z-index: -12;
+  opacity: 1;
+  margin-top: -200px;
+}
+
+.bcg-home-extra-7{
+  background-image: url("../images/lemon4.png");
+  background-position: 25% 100%;
+  background-repeat: no-repeat;
+  background-size: 5.75%;
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  z-index: -13;
+  opacity: 1;
+  margin-top: -320px;
+}
+
+.bcg-home-extra-8{
+  background-image: url("../images/lemon4.png");
+  background-position: 27.5% 100%;
+  background-repeat: no-repeat;
+  background-size: 5.75%;
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  z-index: -14;
+  opacity: 1;
+}
+
+.bcg-home-extra-9{
+  background-image: url("../images/lemon4.png");
+  background-position: 31.5% 100%;
+  background-repeat: no-repeat;
+  background-size: 5.75%;
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  z-index: -15;
+  opacity: 1;
+  margin-top: 280px;
+}
+
 
 
 
