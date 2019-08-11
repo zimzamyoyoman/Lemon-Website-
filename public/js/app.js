@@ -173,7 +173,7 @@ $(document).ready(function () {
     triggerHook: 1,
     duration: '505%'
   })
-    .setTween(TweenMax.from('.bcg-home-normal-2', 1, { y: "-125%", ease: Power0.easeNone }))
+    .setTween(TweenMax.from('.bcg-home-normal-2', 1, { y: "-130%", ease: Power0.easeNone }))
     .addTo(controller);
 
   var lemonHome2 = new ScrollMagic.Scene({
@@ -186,9 +186,9 @@ $(document).ready(function () {
   var slideParallaxSceneHome3 = new ScrollMagic.Scene({
     triggerElement: '.bcg-parallax-home',
     triggerHook: 1,
-    duration: '512%'
+    duration: '525%'
   })
-    .setTween(TweenMax.from('.bcg-home-normal-3', 1, { y: "-130%", ease: Power0.easeNone }))
+    .setTween(TweenMax.from('.bcg-home-normal-3', 1, { y: "-140%", ease: Power0.easeNone }))
     .addTo(controller);
 
   var lemonHome3 = new ScrollMagic.Scene({
@@ -198,20 +198,50 @@ $(document).ready(function () {
     .setClassToggle('.bcg-home-normal-3', 'bcg-home-out')
     .addTo(controller);
 
-    var slideParallaxSceneHome4 = new ScrollMagic.Scene({
-      triggerElement: '.bcg-parallax-home',
-      triggerHook: 1,
-      duration: '465%'
-    })
-      .setTween(TweenMax.from('.bcg-home-normal-4', 1, { y: "-115%", ease: Power0.easeNone }))
-      .addTo(controller);
-  
-    var lemonHome4 = new ScrollMagic.Scene({
-      triggerElement: '#lemonHome-trigger',
-      triggerHook: 0.9
-    })
-      .setClassToggle('.bcg-home-normal-4', 'bcg-home-out')
-      .addTo(controller);
+  var slideParallaxSceneHome4 = new ScrollMagic.Scene({
+    triggerElement: '.bcg-parallax-home',
+    triggerHook: 1,
+    duration: '465%'
+  })
+    .setTween(TweenMax.from('.bcg-home-normal-4', 1, { y: "-115%", ease: Power0.easeNone }))
+    .addTo(controller);
+
+  var lemonHome4 = new ScrollMagic.Scene({
+    triggerElement: '#lemonHome-trigger',
+    triggerHook: 0.9
+  })
+    .setClassToggle('.bcg-home-normal-4', 'bcg-home-out')
+    .addTo(controller);
+
+  var slideParallaxSceneHome5 = new ScrollMagic.Scene({
+    triggerElement: '.bcg-parallax-home',
+    triggerHook: 1,
+    duration: '425%'
+  })
+    .setTween(TweenMax.from('.bcg-home-normal-5', 1, { y: "-110%", ease: Power0.easeNone }))
+    .addTo(controller);
+
+  var lemonHome5 = new ScrollMagic.Scene({
+    triggerElement: '#lemonHome-trigger',
+    triggerHook: 0.9
+  })
+    .setClassToggle('.bcg-home-normal-5', 'bcg-home-out')
+    .addTo(controller);
+
+  var slideParallaxSceneHome6 = new ScrollMagic.Scene({
+    triggerElement: '.bcg-parallax-home',
+    triggerHook: 1,
+    duration: '515%'
+  })
+    .setTween(TweenMax.from('.bcg-home-normal-6', 1, { y: "-123%", ease: Power0.easeNone }))
+    .addTo(controller);
+
+  var lemonHome6 = new ScrollMagic.Scene({
+    triggerElement: '#lemonHome-trigger',
+    triggerHook: 0.9
+  })
+    .setClassToggle('.bcg-home-normal-6', 'bcg-home-out')
+    .addTo(controller);
 
 });
 
