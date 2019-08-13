@@ -163,7 +163,7 @@ $(document).ready(function () {
 
   var lemonNormal1 = new ScrollMagic.Scene({
     triggerElement: '#lemonHome-trigger',
-    triggerHook: 0.9
+    triggerHook: 1
   })
     .setClassToggle('.bcg-home-normal-1', 'bcg-home-out')
     .addTo(controller);
@@ -178,7 +178,7 @@ $(document).ready(function () {
 
   var lemonNormal2 = new ScrollMagic.Scene({
     triggerElement: '#lemonHome-trigger',
-    triggerHook: 0.9
+    triggerHook: 1
   })
     .setClassToggle('.bcg-home-normal-2', 'bcg-home-out')
     .addTo(controller);
@@ -193,7 +193,7 @@ $(document).ready(function () {
 
   var lemonNormal3 = new ScrollMagic.Scene({
     triggerElement: '#lemonHome-trigger',
-    triggerHook: 0.9
+    triggerHook: 1
   })
     .setClassToggle('.bcg-home-normal-3', 'bcg-home-out')
     .addTo(controller);
@@ -208,7 +208,7 @@ $(document).ready(function () {
 
   var lemonNormal4 = new ScrollMagic.Scene({
     triggerElement: '#lemonHome-trigger',
-    triggerHook: 0.9
+    triggerHook: 1
   })
     .setClassToggle('.bcg-home-normal-4', 'bcg-home-out')
     .addTo(controller);
@@ -223,7 +223,7 @@ $(document).ready(function () {
 
   var lemonNormal5 = new ScrollMagic.Scene({
     triggerElement: '#lemonHome-trigger',
-    triggerHook: 0.9
+    triggerHook: 1
   })
     .setClassToggle('.bcg-home-normal-5', 'bcg-home-out')
     .addTo(controller);
@@ -238,7 +238,7 @@ $(document).ready(function () {
 
   var lemonNormal6 = new ScrollMagic.Scene({
     triggerElement: '#lemonHome-trigger',
-    triggerHook: 0.9
+    triggerHook: 1
   })
     .setClassToggle('.bcg-home-normal-6', 'bcg-home-out')
     .addTo(controller);
@@ -253,7 +253,7 @@ $(document).ready(function () {
 
   var lemonMiddle1 = new ScrollMagic.Scene({
     triggerElement: '#lemonHome-trigger',
-    triggerHook: 0.9
+    triggerHook: 1
   })
     .setClassToggle('.bcg-home-middle-1', 'bcg-home-out')
     .addTo(controller);
@@ -268,7 +268,7 @@ $(document).ready(function () {
 
   var lemonMiddle2 = new ScrollMagic.Scene({
     triggerElement: '#lemonHome-trigger',
-    triggerHook: 0.9
+    triggerHook: 1
   })
     .setClassToggle('.bcg-home-middle-2', 'bcg-home-out')
     .addTo(controller);
@@ -283,7 +283,7 @@ $(document).ready(function () {
 
   var lemonMiddle3 = new ScrollMagic.Scene({
     triggerElement: '#lemonHome-trigger',
-    triggerHook: 0.9
+    triggerHook: 1
   })
     .setClassToggle('.bcg-home-middle-3', 'bcg-home-out')
     .addTo(controller);
@@ -298,7 +298,7 @@ $(document).ready(function () {
 
   var lemonMiddle4 = new ScrollMagic.Scene({
     triggerElement: '#lemonHome-trigger',
-    triggerHook: 0.9
+    triggerHook: 1
   })
     .setClassToggle('.bcg-home-middle-4', 'bcg-home-out')
     .addTo(controller);
@@ -313,7 +313,7 @@ $(document).ready(function () {
 
   var lemonMiddle5 = new ScrollMagic.Scene({
     triggerElement: '#lemonHome-trigger',
-    triggerHook: 0.9
+    triggerHook: 1
   })
     .setClassToggle('.bcg-home-middle-5', 'bcg-home-out')
     .addTo(controller);
@@ -328,7 +328,7 @@ $(document).ready(function () {
 
   var lemonBack1 = new ScrollMagic.Scene({
     triggerElement: '#lemonHome-trigger',
-    triggerHook: 0.9
+    triggerHook: 1
   })
     .setClassToggle('.bcg-home-back-1', 'bcg-home-out')
     .addTo(controller);
@@ -343,7 +343,7 @@ $(document).ready(function () {
 
   var lemonBack2 = new ScrollMagic.Scene({
     triggerElement: '#lemonHome-trigger',
-    triggerHook: 0.9
+    triggerHook: 1
   })
     .setClassToggle('.bcg-home-back-2', 'bcg-home-out')
     .addTo(controller);
@@ -358,7 +358,7 @@ $(document).ready(function () {
 
   var lemonBack3 = new ScrollMagic.Scene({
     triggerElement: '#lemonHome-trigger',
-    triggerHook: 0.9
+    triggerHook: 1
   })
     .setClassToggle('.bcg-home-back-3', 'bcg-home-out')
     .addTo(controller);
@@ -373,7 +373,7 @@ $(document).ready(function () {
 
   var lemonBack4 = new ScrollMagic.Scene({
     triggerElement: '#lemonHome-trigger',
-    triggerHook: 0.9
+    triggerHook: 1
   })
     .setClassToggle('.bcg-home-back-4', 'bcg-home-out')
     .addTo(controller);
@@ -388,7 +388,7 @@ $(document).ready(function () {
 
   var lemonBack5 = new ScrollMagic.Scene({
     triggerElement: '#lemonHome-trigger',
-    triggerHook: 0.9
+    triggerHook: 1
   })
     .setClassToggle('.bcg-home-back-5', 'bcg-home-out')
     .addTo(controller);
@@ -403,7 +403,7 @@ $(document).ready(function () {
 
   var lemonBack6 = new ScrollMagic.Scene({
     triggerElement: '#lemonHome-trigger',
-    triggerHook: 0.9
+    triggerHook: 1
   })
     .setClassToggle('.bcg-home-back-6', 'bcg-home-out')
     .addTo(controller);
@@ -418,7 +418,7 @@ $(document).ready(function () {
 
   var lemonExtra1 = new ScrollMagic.Scene({
     triggerElement: '#lemonHome-trigger',
-    triggerHook: 0.9
+    triggerHook: 1
   })
     .setClassToggle('.bcg-home-extra-1', 'bcg-home-out')
     .addTo(controller);
@@ -433,7 +433,7 @@ $(document).ready(function () {
 
   var lemonExtra2 = new ScrollMagic.Scene({
     triggerElement: '#lemonHome-trigger',
-    triggerHook: 0.9
+    triggerHook: 1
   })
     .setClassToggle('.bcg-home-extra-2', 'bcg-home-out')
     .addTo(controller);
@@ -448,7 +448,7 @@ $(document).ready(function () {
 
   var lemonExtra3 = new ScrollMagic.Scene({
     triggerElement: '#lemonHome-trigger',
-    triggerHook: 0.9
+    triggerHook: 1
   })
     .setClassToggle('.bcg-home-extra-3', 'bcg-home-out')
     .addTo(controller);
@@ -463,7 +463,7 @@ $(document).ready(function () {
 
   var lemonExtra4 = new ScrollMagic.Scene({
     triggerElement: '#lemonHome-trigger',
-    triggerHook: 0.9
+    triggerHook: 1
   })
     .setClassToggle('.bcg-home-extra-4', 'bcg-home-out')
     .addTo(controller);
@@ -478,7 +478,7 @@ $(document).ready(function () {
 
   var lemonExtra5 = new ScrollMagic.Scene({
     triggerElement: '#lemonHome-trigger',
-    triggerHook: 0.9
+    triggerHook: 1
   })
     .setClassToggle('.bcg-home-extra-5', 'bcg-home-out')
     .addTo(controller);
@@ -493,7 +493,7 @@ $(document).ready(function () {
 
   var lemonExtra6 = new ScrollMagic.Scene({
     triggerElement: '#lemonHome-trigger',
-    triggerHook: 0.9
+    triggerHook: 1
   })
     .setClassToggle('.bcg-home-extra-6', 'bcg-home-out')
     .addTo(controller);
@@ -508,7 +508,7 @@ $(document).ready(function () {
 
   var lemonExtra7 = new ScrollMagic.Scene({
     triggerElement: '#lemonHome-trigger',
-    triggerHook: 0.9
+    triggerHook: 1
   })
     .setClassToggle('.bcg-home-extra-7', 'bcg-home-out')
     .addTo(controller);
@@ -523,7 +523,7 @@ $(document).ready(function () {
 
   var lemonExtra8 = new ScrollMagic.Scene({
     triggerElement: '#lemonHome-trigger',
-    triggerHook: 0.9
+    triggerHook: 1
   })
     .setClassToggle('.bcg-home-extra-8', 'bcg-home-out')
     .addTo(controller);
@@ -538,7 +538,7 @@ $(document).ready(function () {
 
   var lemonExtra9 = new ScrollMagic.Scene({
     triggerElement: '#lemonHome-trigger',
-    triggerHook: 0.9
+    triggerHook: 1
   })
     .setClassToggle('.bcg-home-extra-9', 'bcg-home-out')
     .addTo(controller);
