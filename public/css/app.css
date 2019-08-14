@@ -90,8 +90,22 @@ body {
   margin-top: -50px;
 }
 
+.bcg-home-logo {
+  background-image: url("../images/logo.png");
+  background-position: 90% 3%;
+  background-size: 20%;
+  background-repeat: no-repeat;
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  z-index: 1;
+  opacity: 1;
+  margin-top: -50px;
+}
+
 .bcg-home-normal-1 {
-  background-image: url("../images/lemon2.png");
+  background-image: url("../images/Normal.png");
   background-position: 25% 100%;
   background-repeat: no-repeat;
   background-size: 7%;
@@ -105,7 +119,7 @@ body {
 }
 
 .bcg-home-normal-2 {
-  background-image: url("../images/lemon2.png");
+  background-image: url("../images/Normal.png");
   background-position: 35% 100%;
   background-repeat: no-repeat;
   background-size: 7%;
@@ -113,13 +127,13 @@ body {
   width: 100%;
   height: 100%;
   top: 0;
-  z-index: 1;
+  z-index: 0;
   opacity: 1;
   margin-top: -35px;
 }
 
 .bcg-home-normal-3 {
-  background-image: url("../images/lemon2.png");
+  background-image: url("../images/Normal.png");
   background-position: 45% 100%;
   background-repeat: no-repeat;
   background-size: 7%;
@@ -127,13 +141,13 @@ body {
   width: 100%;
   height: 100%;
   top: 0;
-  z-index: 1;
+  z-index: 0;
   opacity: 1;
   margin-top: 60px;
 }
 
 .bcg-home-normal-4 {
-  background-image: url("../images/lemon2.png");
+  background-image: url("../images/Normal.png");
   background-position: 55% 100%;
   background-repeat: no-repeat;
   background-size: 7%;
@@ -141,13 +155,13 @@ body {
   width: 100%;
   height: 100%;
   top: 0;
-  z-index: 1;
+  z-index: 0;
   opacity: 1;
   margin-top: -240px;
 }
 
 .bcg-home-normal-5 {
-  background-image: url("../images/lemon2.png");
+  background-image: url("../images/Normal.png");
   background-position: 40% 100%;
   background-repeat: no-repeat;
   background-size: 7%;
@@ -155,13 +169,13 @@ body {
   width: 100%;
   height: 100%;
   top: 0;
-  z-index: 1;
+  z-index: 0;
   opacity: 1;
   margin-top: -400px;
 }
 
 .bcg-home-normal-6 {
-  background-image: url("../images/lemon2.png");
+  background-image: url("../images/Normal.png");
   background-position: 47.5% 100%;
   background-repeat: no-repeat;
   background-size: 7%;
@@ -169,16 +183,16 @@ body {
   width: 100%;
   height: 100%;
   top: 0;
-  z-index: 1;
+  z-index: 0;
   opacity: 1;
   margin-top: 20px;
 }
 
 .bcg-home-middle-1 {
-  background-image: url("../images/lemon2.png");
+  background-image: url("../images/Normal.png");
   background-position: 22.5% 100%;
   background-repeat: no-repeat;
-  background-size: 6.25%;
+  background-size: 6.5%;
   position: absolute;
   width: 100%;
   height: 100%;
@@ -189,10 +203,10 @@ body {
 }
 
 .bcg-home-middle-2 {
-  background-image: url("../images/lemon2.png");
+  background-image: url("../images/Normal.png");
   background-position: 35% 100%;
   background-repeat: no-repeat;
-  background-size: 6.25%;
+  background-size: 6.5%;
   position: absolute;
   width: 100%;
   height: 100%;
@@ -203,10 +217,10 @@ body {
 }
 
 .bcg-home-middle-3 {
-  background-image: url("../images/lemon2.png");
+  background-image: url("../images/Normal.png");
   background-position: 47.5% 100%;
   background-repeat: no-repeat;
-  background-size: 6.25%;
+  background-size: 6.5%;
   position: absolute;
   width: 100%;
   height: 100%;
@@ -217,10 +231,10 @@ body {
 }
 
 .bcg-home-middle-4 {
-  background-image: url("../images/lemon2.png");
+  background-image: url("../images/Normal.png");
   background-position: 57.5% 100%;
   background-repeat: no-repeat;
-  background-size: 6.25%;
+  background-size: 6.5%;
   position: absolute;
   width: 100%;
   height: 100%;
@@ -231,10 +245,10 @@ body {
 }
 
 .bcg-home-middle-5 {
-  background-image: url("../images/lemon2.png");
+  background-image: url("../images/Normal.png");
   background-position: 55% 100%;
   background-repeat: no-repeat;
-  background-size: 6.25%;
+  background-size: 6.5%;
   position: absolute;
   width: 100%;
   height: 100%;
@@ -245,10 +259,10 @@ body {
 }
 
 .bcg-home-back-1{
-  background-image: url("../images/lemon3.png");
+  background-image: url("../images/Back.png");
   background-position: 20% 100%;
   background-repeat: no-repeat;
-  background-size: 6.25%;
+  background-size: 6.5%;
   position: absolute;
   width: 100%;
   height: 100%;
@@ -259,10 +273,10 @@ body {
 }
 
 .bcg-home-back-2{
-  background-image: url("../images/lemon3.png");
+  background-image: url("../images/Back.png");
   background-position: 25% 100%;
   background-repeat: no-repeat;
-  background-size: 6.25%;
+  background-size: 6.5%;
   position: absolute;
   width: 100%;
   height: 100%;
@@ -273,10 +287,10 @@ body {
 }
 
 .bcg-home-back-3{
-  background-image: url("../images/lemon3.png");
+  background-image: url("../images/Back.png");
   background-position: 30% 100%;
   background-repeat: no-repeat;
-  background-size: 6.25%;
+  background-size: 6.5%;
   position: absolute;
   width: 100%;
   height: 100%;
@@ -287,10 +301,10 @@ body {
 }
 
 .bcg-home-back-4{
-  background-image: url("../images/lemon3.png");
+  background-image: url("../images/Back.png");
   background-position: 35% 100%;
   background-repeat: no-repeat;
-  background-size: 6.25%;
+  background-size: 6.5%;
   position: absolute;
   width: 100%;
   height: 100%;
@@ -301,10 +315,10 @@ body {
 }
 
 .bcg-home-back-5{
-  background-image: url("../images/lemon3.png");
+  background-image: url("../images/Back.png");
   background-position: 40% 100%;
   background-repeat: no-repeat;
-  background-size: 6.25%;
+  background-size: 6.5%;
   position: absolute;
   width: 100%;
   height: 100%;
@@ -315,10 +329,10 @@ body {
 }
 
 .bcg-home-back-6{
-  background-image: url("../images/lemon3.png");
+  background-image: url("../images/Back.png");
   background-position: 45% 100%;
   background-repeat: no-repeat;
-  background-size: 6.25%;
+  background-size: 6.5%;
   position: absolute;
   width: 100%;
   height: 100%;
@@ -329,122 +343,122 @@ body {
 }
 
 .bcg-home-extra-1{
-  background-image: url("../images/lemon4.png");
+  background-image: url("../images/Back.png");
   background-position: 55% 100%;
   background-repeat: no-repeat;
-  background-size: 5.75%;
+  background-size: 6.75%;
   position: absolute;
   width: 100%;
   height: 100%;
   top: 0;
-  z-index: -3;
+  z-index: -1;
   opacity: 1;
   margin-top: -40px;
 }
 
 .bcg-home-extra-2{
-  background-image: url("../images/lemon4.png");
+  background-image: url("../images/Back.png");
   background-position: 50% 100%;
   background-repeat: no-repeat;
-  background-size: 5.75%;
+  background-size: 6.75%;
   position: absolute;
   width: 100%;
   height: 100%;
   top: 0;
-  z-index: -3;
+  z-index: -1;
   opacity: 1;
   margin-top: -40px;
 }
 
 .bcg-home-extra-3{
-  background-image: url("../images/lemon4.png");
+  background-image: url("../images/Back.png");
   background-position: 45% 100%;
   background-repeat: no-repeat;
-  background-size: 5.75%;
+  background-size: 6.75%;
   position: absolute;
   width: 100%;
   height: 100%;
   top: 0;
-  z-index: -3;
+  z-index: -1;
   opacity: 1;
   margin-top: -400px;
 }
 
 .bcg-home-extra-4{
-  background-image: url("../images/lemon4.png");
+  background-image: url("../images/Back.png");
   background-position: 40% 100%;
   background-repeat: no-repeat;
-  background-size: 5.75%;
+  background-size: 6.75%;
   position: absolute;
   width: 100%;
   height: 100%;
   top: 0;
-  z-index: -3;
+  z-index: -1;
   opacity: 1;
   margin-top: 290px;
 }
 
 .bcg-home-extra-5{
-  background-image: url("../images/lemon4.png");
+  background-image: url("../images/Back.png");
   background-position: 35% 100%;
   background-repeat: no-repeat;
-  background-size: 5.75%;
+  background-size: 6.75%;
   position: absolute;
   width: 100%;
   height: 100%;
   top: 0;
-  z-index: -3;
+  z-index: -1;
   opacity: 1;
   margin-top: 360px;
 }
 
 .bcg-home-extra-6{
-  background-image: url("../images/lemon4.png");
+  background-image: url("../images/Back.png");
   background-position: 30% 100%;
   background-repeat: no-repeat;
-  background-size: 5.75%;
+  background-size: 6.75%;
   position: absolute;
   width: 100%;
   height: 100%;
   top: 0;
-  z-index: -3;
+  z-index: -1;
   opacity: 1;
   margin-top: -240px;
 }
 
 .bcg-home-extra-7{
-  background-image: url("../images/lemon4.png");
+  background-image: url("../images/Back.png");
   background-position: 25% 100%;
   background-repeat: no-repeat;
-  background-size: 5.75%;
+  background-size: 6.75%;
   position: absolute;
   width: 100%;
   height: 100%;
   top: 0;
-  z-index: -3;
+  z-index: -1;
   opacity: 1;
   margin-top: -360px;
 }
 
 .bcg-home-extra-8{
-  background-image: url("../images/lemon4.png");
+  background-image: url("../images/Back.png");
   background-position: 27.5% 100%;
   background-repeat: no-repeat;
-  background-size: 5.75%;
+  background-size: 6.75%;
   position: absolute;
   width: 100%;
   height: 100%;
   top: 0;
-  z-index: -3;
+  z-index: -1;
   opacity: 1;
   margin-top: -40px;
 }
 
 .bcg-home-extra-9{
-  background-image: url("../images/lemon4.png");
+  background-image: url("../images/Back.png");
   background-position: 31.5% 100%;
   background-repeat: no-repeat;
-  background-size: 5.75%;
+  background-size: 6.75%;
   position: absolute;
   width: 100%;
   height: 100%;
@@ -462,11 +476,11 @@ body {
 
 .bcg-home-out {
   opacity: 0;
-  -webkit-transition: all 0.3s ease-in-out;
-     -moz-transition: all 0.3s ease-in-out;
-      -ms-transition: all 0.3s ease-in-out;
-       -o-transition: all 0.3s ease-in-out;
-          transition: all 0.3s ease-in-out;
+  -webkit-transition: all 0.6s ease-in-out;
+     -moz-transition: all 0.6s ease-in-out;
+      -ms-transition: all 0.6s ease-in-out;
+       -o-transition: all 0.6s ease-in-out;
+          transition: all 0.6s ease-in-out;
 }
 
 /* ========================================= */
@@ -787,8 +801,8 @@ transition-delay: 0.05s;
 }
 
 .bcg-team {
-  background-image: url("../images/team-1.png");
-  background-position: 90% 5%;
+  background-image: url("../images/Stack.png");
+  background-position: 80% 5%;
   background-repeat: no-repeat;
   background-size: 30%;
   position: absolute;
@@ -989,10 +1003,10 @@ margin-top: 20px;
 }
 
 .bcg-skill {
-  background-image: url("../images/skill-1.png"), url("../images/skill-2.png");
-  background-position: left, right;
+  background-image: url("../images/skill-3.png"), url("../images/skill-4.png");
+  background-position: -50%, right;
   background-repeat: no-repeat;
-  background-size: 50%, 50%;
+  background-size: 80%, 40%;
   position: absolute;
   width: 100%;
   height: 100%;
@@ -1245,11 +1259,11 @@ section div label {
 
 .bcg-contact {
   background-image: url("../images/contact-1.png");
-  /* background-position: 12% 10%; */
-  background-position: left 10%;
+  /* background-position: right 10%; */
+  background-position: 12% 10%;
   background-repeat: no-repeat;
-  background-size: 30%, 30%;
-  /* background-size: 10%, 10%; */
+  /* background-size: 15%, 15%; */
+  background-size: 12%, 12%;
   position: absolute;
   width: 100%;
   height: 100%;
@@ -1260,11 +1274,11 @@ section div label {
 
 .bcg-contact2 {
   background-image: url("../images/contact-2.png");
-  /* background-position: 95% 45%; */
-  background-position: right 35%;
+  background-position: 95% 45%;
+  /* background-position: right 35%; */
   background-repeat: no-repeat;
+  background-size: 20%, 20%;
   /* background-size: 20%, 20%; */
-  background-size: 40%, 40%;
   position: absolute;
   width: 100%;
   height: 100%;
@@ -1275,11 +1289,11 @@ section div label {
 
 .bcg-contact3 {
   background-image: url("../images/contact-3.png");
-  /* background-position: 50% 70%; */
-  background-position: 40% 60%;
+  background-position: 40% 80%;
+  /* background-position: 40% 60%; */
   background-repeat: no-repeat;
-  /* background-size: 35%, 35%; */
-  background-size: 70%, 70%;
+  background-size: 35%, 35%;
+  /* background-size: 40%, 40%; */
   position: absolute;
   width: 100%;
   height: 100%;
