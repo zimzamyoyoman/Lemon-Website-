@@ -21,7 +21,7 @@
     "ejs": "^2.6.1",
     "express": "^4.17.0",
     "heroku": "^7.24.4",
-    "lodash": "^4.17.15",
+    "lodash": "^4.17.21",
     "lodash.merge": "^4.6.2",
     "lodash.template": "^4.5.0",
     "nodemon": "^1.19.0",
